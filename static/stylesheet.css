@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica;
   font-size: 13px;
+  background-color: #050808;
 }
 
 #menu {
@@ -13,6 +14,7 @@ body {
 }
 
 #menu .title {
+  color: white;
 }
 
 #menu ul {
@@ -26,7 +28,7 @@ body {
 
 #menu li a {
   display: inline-block;
-  color: #0864c7;
+  color: white;
 }
 
 #left {
@@ -46,28 +48,26 @@ body {
   width: 500px;
 }
 
-#content h1,
-#content h2,
-#content h3 {
+#content h1, #content h2, #content h3 {
   font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
-  margin: 0;
+  margin: 0;  
+  color: white
 }
 
 #content h2 {
   margin-top: 2em;
+  color:white
 }
 
-#content .byline,
-#content .byline a,
-#content .note {
+#content .byline, #content .byline a, #content .note {
   font-size: 10px;
-  color: #aaa;
+  color: white;
 }
 
-#content p,
-#content ul {
-  color: #333;
+#content p, #content ul {
+  color: white;
   line-height: 18px;
+  line-height: 1.3;
 }
 
 #content sup.note {
@@ -85,11 +85,11 @@ body {
   border-top: 1px solid #eee;
   margin-bottom: 4em;
   font-size: smaller;
-  color: #777;
+  color: white;
 }
 
 #content .thanks a {
-  color: #777;
+  color: white;
 }
 
 #content li {
@@ -100,15 +100,15 @@ body {
   margin-top: 50px;
 }
 
-sup,
-sub {
+sup, sub {
   vertical-align: baseline;
   position: relative;
   top: -0.4em;
 }
-sub {
-  top: 0.4em;
+sub { 
+  top: 0.4em; 
 }
+
 
 blockquote {
   margin-top: 10px;
@@ -116,5 +116,17 @@ blockquote {
   margin-left: 0;
   padding-left: 15px;
   border-left: 4px solid #66669a;
-  color: #333;
+  color: white;
+  line-height: 1.3;
+  ;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
 }

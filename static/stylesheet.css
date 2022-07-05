@@ -48,8 +48,8 @@ body {
   width: 500px;
 }
 
-#content h1, #content h2, #content h3 {
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+#content h1, #content h2, #content h3, #content h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;  
   color: #D5D5D5
 }

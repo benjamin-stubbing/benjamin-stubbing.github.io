@@ -45,7 +45,7 @@ body {
 #content {
   margin-top: 15px;
   float: left;
-  width: 500px;
+  width: 600px; /* Increased from 500px to accommodate larger images */
 }
 
 #content h1, #content h2, #content h3, #content h4 {
@@ -133,4 +133,38 @@ a:link {
 /* visited link */
 a:visited {
   color: #8B8B8B;
+}
+
+/* New styles for image gallery */
+.image-gallery {
+  margin-bottom: 20px;
+}
+
+.main-image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.small-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.small-image {
+  width: 22%;
+  height: auto;
+}
+
+.additional-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.additional-image {
+  width: 30%;
+  height: auto;
 }

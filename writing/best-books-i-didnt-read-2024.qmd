@@ -1,0 +1,12 @@
+---
+title: "The Best Books I Didn't Read in 2024"
+draft: true
+---
+
+<!--
+Placeholder. This essay currently lives on Notion and is linked from
+writing.qmd. To publish it here: paste the essay below, remove `draft: true`
+from the front matter, and point the link in writing.qmd at this page.
+-->
+
+This essay currently lives on Notion: [The Best Books I Didn't Read in 2024](https://cream-lift-9ad.notion.site/The-Best-Books-I-Didn-t-Read-in-2024-16506aff89f28036b236dfb69661a6c9).

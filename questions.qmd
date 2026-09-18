@@ -1,0 +1,44 @@
+---
+title: "Tabs open on my brain"
+aliases:
+  - /menu/questions.html
+---
+
+[Last updated May 2024]{.muted}
+
+*N.B.*, My having included a question on this list is not in anyway to imply that there aren't good/interesting answers to these questions out there; in many cases there are rich and deep literatures exploring these topics, per [Cowen's Second Law](https://marginalrevolution.com/marginalrevolution/2015/04/tyler-cowens-three-laws.html). (In fact I keep Manilla folders for some of these questions and if you have any thoughts of your own, or reading suggestions, please let me know). It's purely stuff I find (found?—depend on the delta between when you're reading this and what you read above^) interesting.
+
+## NZ
+
+- How can governments articulate meaningful national visions that provide organisational focus and social cohesion without falling prey to Hayek's knowledge problem—the impossibility of centrally coordinating dispersed information that only individuals possess? (See, e.g., [Focus without blinkers](https://cream-lift-9ad.notion.site/Focus-without-blinkers-1d806aff89f280599603d14906fd152a?pvs=4)).
+- Why does NZ perform so poorly in productivity?
+- Is “the tyranny of distance” an insurmountable constraint on NZ’s flourishing?
+- How do we ensure our best and brightest work on the most pressing problems we face?
+- How do we increase the prestige associated with working in important but underrated areas?
+- Can we make the NZ economy more dynamic–more friendly to developing, investing in, and profiting from productive, high-value enterprise, while disincentivizing property investment/speculation and reducing the tax burden on labour?
+- To what extent is the robustness of Democracy in NZ due to culture?
+- Why does construction take so long in NZ?
+- What’s the future of NZ higher education?
+- How can NZ attract academic talent fleeing elite US universities?
+- How do we make our cities more attractive to live in?
+
+## Institutional decision-making
+
+- How much institutional knowledge is at risk?
+- Can we improve people's judgment in some lasting way that impacts decisions that they make for their life or career?
+- Could we get parliamentarians to regularly test their forecasting ability?
+- What are the best heuristics for reliably identifying experts on a topic, or choosing what to believe when apparent experts disagree?
+- To what extent is it possible to predict which news will persist over different timescales, or predict wars from news and social media?
+- How do we get political/government institutions to prioritise error-correction and predictive accuracy, and de-prioritise bureaucratic process, prestige, and signalling?
+- What impact would red-teams have on government decision-making?
+- What are the conditions that could spark and fuel an international AI race? How great are the dangers from such a race, how can those dangers be communicated and understood, and what factors could reduce or exacerbate them? What routes exist for avoiding or escaping the race, such as norms, agreements, or institutions regarding standards, verification, enforcement, or international control? (Allan Dafoe, AI Governance: A Research Agenda)
+
+## Productivity and wellbeing
+
+- Why can't we see the effects of computers in the longitudinal productivity statistics?
+- What are the costs of focusing on reducing emissions instead of productivity growth?
+- What are the costs of focusing on emissions reduction vs. adaptation?
+- What’s the best way to measure individual wellbeing (on different assumptions)? What’s the best way to measure aggregate wellbeing for groups?
+- What concerns are there with representing people as having utility functions? What alternatives are there?
+- Of the comprehensive macroeconomic indices already available to us, which serve best as proxies for long-term expected global welfare (including but not limited to considerations of existential risks)? What would be the broad policy implications of targeting such indices instead of GDP per capita? (Global Priorities Institute, Research Agenda)
+- Why has there not been a decline in working hours?

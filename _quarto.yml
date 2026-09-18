@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "writing/*.qmd"
+  resources:
+    - resources/
+    - static/
+
+website:
+  title: "Benjamin Stubbing"
+  site-url: https://benjamin-stubbing.github.io
+  description: "Benjamin Stubbing is an economist in Wellington, New Zealand."
+  search: false
+  page-navigation: false
+  back-to-top-navigation: false
+  page-footer:
+    left: "benstubbing (at) gmail (dot) com &nbsp;·&nbsp; [Substack](https://benjaminstubbing.substack.com/)"
+
+format:
+  html:
+    theme: styles/theme.scss
+    lang: en
+    toc: false
+    anchor-sections: false
+    smooth-scroll: false
+    footnotes-hover: false
+    link-external-newwindow: false
+    include-in-header: styles/fonts.html
+    template-partials:
+      - styles/title-block.html
+      - styles/site-nav.html

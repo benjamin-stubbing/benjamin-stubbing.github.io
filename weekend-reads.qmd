@@ -1,0 +1,17 @@
+---
+title: "Weekend Reads"
+aliases:
+  - /menu/weekend_reads.html
+---
+
+> *In an information-rich world, the wealth of information means a dearth of something else: a scarcity of whatever it is that information consumes. What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention and a need to allocate that attention efficiently among the over-abundance of information sources that might consume it.*
+>
+> [— Herbert Simon]{.attribution}
+
+> *Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.*
+>
+> [— Feynman]{.attribution}
+
+From time to time I circulate an old-school links blast of stuff that's caught my eye. It's not manicured: it's "a magpie's nest of flotsam and jetsam. Mostly jetsam."
+
+[Here's the archive](https://benjaminstubbing.substack.com/).

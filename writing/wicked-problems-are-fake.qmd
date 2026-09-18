@@ -1,0 +1,12 @@
+---
+title: "Wicked Problems are Fake"
+draft: true
+---
+
+<!--
+Placeholder. This essay currently lives on Notion and is linked from
+writing.qmd. To publish it here: paste the essay below, remove `draft: true`
+from the front matter, and point the link in writing.qmd at this page.
+-->
+
+This essay currently lives on Notion: [Wicked Problems are Fake](https://cream-lift-9ad.notion.site/Wicked-Problems-are-Fake-2ed3cfbbc0184a0ab11d98b5186774ac).

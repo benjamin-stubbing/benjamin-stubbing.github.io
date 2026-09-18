@@ -1,0 +1,22 @@
+$if(home)$
+<header id="title-block-header" class="quarto-title-block site-header">
+  <h1 class="title site-name"><a href="/">Benjamin Stubbing</a></h1>
+  $site-nav.html()$
+</header>
+$else$
+<header class="site-header">
+  <a class="site-name" href="/">Benjamin Stubbing</a>
+  $site-nav.html()$
+</header>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">$title$</h1>
+$if(subtitle)$
+<p class="subtitle lead">$subtitle$</p>
+$endif$
+</div>
+$if(description)$
+<div class="description">$description$</div>
+$endif$
+</header>
+$endif$

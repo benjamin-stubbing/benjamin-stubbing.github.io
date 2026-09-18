@@ -1,0 +1,12 @@
+---
+title: "Advice I often give"
+draft: true
+---
+
+<!--
+Placeholder. This essay currently lives on Notion and is linked from
+writing.qmd. To publish it here: paste the essay below, remove `draft: true`
+from the front matter, and point the link in writing.qmd at this page.
+-->
+
+This essay currently lives on Notion: [Advice I often give](https://cream-lift-9ad.notion.site/Advice-I-often-give-5d10fd3196a942b8848eb7e0252fa148).

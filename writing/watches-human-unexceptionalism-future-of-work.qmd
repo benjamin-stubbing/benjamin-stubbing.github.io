@@ -1,0 +1,12 @@
+---
+title: "Watches, Human Unexceptionalism & the Future of Work"
+draft: true
+---
+
+<!--
+Placeholder. This essay currently lives on Notion and is linked from
+writing.qmd. To publish it here: paste the essay below, remove `draft: true`
+from the front matter, and point the link in writing.qmd at this page.
+-->
+
+This essay currently lives on Notion: [Watches, Human Unexceptionalism & the Future of Work](https://cream-lift-9ad.notion.site/Watches-Human-Unexceptionalism-The-Future-of-Work-7fd45b4f1fb147e6a5d84ae2d52fdb93?pvs=74).

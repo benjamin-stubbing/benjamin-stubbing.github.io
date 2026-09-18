@@ -1,0 +1,20 @@
+---
+title: "Benjamin Stubbing"
+pagetitle: "Benjamin Stubbing"
+home: true
+---
+
+I'm an economist at the Treasury in Wellington, New Zealand, where I work on research and analysis that makes trade-offs legible to decision-makers.
+
+I write about economics, books, and the coolest things I learn each year. There is more [about me](about.qmd), and I circulate an old-school [links blast](weekend-reads.qmd) on weekends.
+
+## Selected writing
+
+::: {.link-list}
+- [Advice I often give](https://cream-lift-9ad.notion.site/Advice-I-often-give-5d10fd3196a942b8848eb7e0252fa148)
+- [A brief history of instant coffee](https://worksinprogress.co/issue/a-brief-history-of-instant-coffee/), with Oscar Sykes, for *Works in Progress*
+- [Wicked Problems are Fake](https://cream-lift-9ad.notion.site/Wicked-Problems-are-Fake-2ed3cfbbc0184a0ab11d98b5186774ac)
+- [The coolest things I learned in 2025](https://cream-lift-9ad.notion.site/The-Coolest-Things-I-Learned-in-2025-in-no-particular-order-2ca06aff89f280a39ffddeada26cad7b?source=copy_link)
+:::
+
+[All writing](writing.qmd).

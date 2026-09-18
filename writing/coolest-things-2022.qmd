@@ -1,0 +1,12 @@
+---
+title: "The coolest things I learned in 2022 (in no particular order)"
+draft: true
+---
+
+<!--
+Placeholder. This essay currently lives on Notion and is linked from
+writing.qmd. To publish it here: paste the essay below, remove `draft: true`
+from the front matter, and point the link in writing.qmd at this page.
+-->
+
+This essay currently lives on Notion: [The coolest things I learned in 2022 (in no particular order)](https://cream-lift-9ad.notion.site/The-coolest-things-I-learned-in-2022-in-no-particular-order-ab01f3bcba024643935d12b6b36e430c).

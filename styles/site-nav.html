@@ -1,0 +1,22 @@
+<nav class="site-nav" aria-label="Site">
+  <a href="/about.html">About</a>
+  <a href="/writing.html">Writing</a>
+  <a href="/bookshelf.html">Bookshelf</a>
+  <a href="/weekend-reads.html">Weekend Reads</a>
+  <a href="/questions.html">Questions</a>
+  <a href="/people-and-links.html">People &amp; Links</a>
+  <a href="/dining.html">Dining</a>
+</nav>
+<script>
+  // Mark the current section in the navigation.
+  (function () {
+    var here = location.pathname;
+    document.querySelectorAll('.site-nav a').forEach(function (a) {
+      var there = a.pathname;
+      var section = there.replace(/\.html$$/, '') + '/';
+      if (here === there || here.indexOf(section) === 0) {
+        a.setAttribute('aria-current', 'page');
+      }
+    });
+  })();
+</script>

@@ -1,0 +1,403 @@
+/*-- scss:defaults --*/
+
+// ---- Palette ---------------------------------------------------------------
+$cream:    #F7F3E8;
+$charcoal: #2B2B2B;
+$prussian: #2D4654;
+
+$site-bg:      $cream;
+$site-text:    $charcoal;
+$site-accent:  $prussian;
+$site-muted:   mix($charcoal, $cream, 72%);   // ~5.4:1 on cream
+$site-rule:    mix($prussian, $cream, 35%);
+
+// ---- Typography ----------------------------------------------------------
+$font-family-sans-serif: "EB Garamond", Garamond, "Cormorant Garamond", Georgia, "Times New Roman", serif;
+$font-family-base:       $font-family-sans-serif;
+$headings-font-family:   $font-family-sans-serif;
+$font-family-monospace:  ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+$font-size-base:       1.15rem;  // Quarto's root is 17px, so ~19.5px
+$line-height-base:     1.6;
+$headings-font-weight: 600;
+$headings-line-height: 1.25;
+$h1-font-size: 1.7rem;
+$h2-font-size: 1.35rem;
+$h3-font-size: 1.2rem;
+$h4-font-size: 1.05rem;
+$h5-font-size: 1rem;
+$h6-font-size: 1rem;
+$blockquote-font-size: $font-size-base;
+
+// ---- Bootstrap / Quarto variables ----------------------------------------
+$body-bg:          $site-bg;
+$body-color:       $site-text;
+$headings-color:   $site-accent;
+$link-color:       $site-accent;
+$link-hover-color: $site-accent;
+$link-decoration:  underline;
+$code-color:       $site-text;
+$code-bg:          transparent;
+$footer-bg:        transparent;
+$footer-fg:        $site-muted;
+$enable-shadows:   false;
+$enable-gradients: false;
+
+/*-- scss:rules --*/
+
+:root {
+  --site-bg:     #{$site-bg};
+  --site-text:   #{$site-text};
+  --site-accent: #{$site-accent};
+  --site-muted:  #{$site-muted};
+  --site-rule:   #{$site-rule};
+  --site-column: 38rem;                         // reading column (~33em)
+  --site-inset:  clamp(1.25rem, 14vw, 13rem);   // left offset of the column
+  --site-gutter: 1.25rem;                       // page edge gutter
+  --site-margin: 13rem;                         // right-hand margin column (sidenotes)
+}
+
+// ---- Page ----------------------------------------------------------------
+html { background: var(--site-bg); }
+
+body {
+  background: var(--site-bg);
+  color: var(--site-text);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-variant-numeric: oldstyle-nums;
+  font-kerning: normal;
+}
+
+// ---- Page grid -----------------------------------------------------------
+// Quarto lays pages out on a CSS grid with named lines (screen, page, body,
+// margin). We keep the grid and its line names, so Quarto's layout classes
+// (.column-margin, .column-page, .column-screen-inset, margin footnotes via
+// reference-location: margin, and so on) keep working, but redefine the
+// columns so the reading column sits at a fixed left inset with a margin
+// column to its right.
+#quarto-content.page-columns,
+#quarto-content .page-columns {
+  display: grid;
+  gap: 0;
+  grid-template-columns:
+    [screen-start] var(--site-gutter)
+    [screen-start-inset page-start] minmax(0, calc(var(--site-inset) - var(--site-gutter)))
+    [page-start-inset body-start-outset body-start body-content-start] minmax(0, var(--site-column))
+    [body-content-end body-end] 1.5rem
+    [body-end-outset] minmax(0, var(--site-margin))
+    [page-end-inset] 1.5rem
+    [page-end] minmax(var(--site-gutter), 1fr)
+    [screen-end-inset] var(--site-gutter)
+    [screen-end];
+}
+
+// Below 992px there is no room for a margin column: drop it and bring
+// margin notes and asides inline, in the reading column.
+@media (max-width: 991.98px) {
+  #quarto-content.page-columns,
+  #quarto-content .page-columns {
+    grid-template-columns:
+      [screen-start] var(--site-gutter)
+      [screen-start-inset page-start] minmax(0, calc(var(--site-inset) - var(--site-gutter)))
+      [page-start-inset body-start-outset body-start body-content-start] minmax(0, var(--site-column))
+      [body-content-end body-end body-end-outset page-end-inset page-end] minmax(var(--site-gutter), 1fr)
+      [screen-end-inset] var(--site-gutter)
+      [screen-end];
+  }
+
+  .page-columns .column-margin,
+  .page-columns div.aside,
+  .page-columns aside:not(.footnotes):not(.sidebar),
+  .page-columns .margin-caption {
+    grid-column: body-content-start / body-content-end !important;
+    margin-bottom: 1rem;
+  }
+
+  // Quarto collapses margin-note wrappers to zero height; restore them inline.
+  .no-row-height {
+    height: auto;
+    overflow: visible;
+  }
+}
+
+// One column on small screens.
+@media (max-width: 640px) {
+  #quarto-content.page-columns,
+  #quarto-content .page-columns {
+    grid-template-columns:
+      [screen-start] var(--site-gutter)
+      [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(0, 1fr)
+      [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset] var(--site-gutter)
+      [screen-end];
+  }
+}
+
+#quarto-content > main.content {
+  grid-column: body-content-start / body-content-end;
+  margin: 0;
+  padding: 0 0 1rem;
+  max-width: none;
+}
+
+#quarto-content > main.content.page-full {
+  grid-column: screen-start / screen-end;
+}
+
+// Margin notes and asides.
+.column-margin,
+div.aside,
+aside:not(.footnotes):not(.sidebar),
+.margin-caption {
+  font-size: 0.92em;
+  line-height: 1.45;
+  color: var(--site-muted);
+}
+
+.column-margin p:last-child,
+div.aside p:last-child { margin-bottom: 0; }
+
+.column-margin .footnote-back { display: none; }
+
+// Shaded full-width blocks, kept in the palette.
+.page-columns .column-screen-inset-shaded {
+  background: mix($prussian, $cream, 6%);
+}
+
+// ---- Header --------------------------------------------------------------
+.site-header,
+#title-block-header.site-header {
+  margin: 0;
+  padding-top: clamp(3rem, 7vh, 5rem);
+  padding-bottom: 2.75rem;
+}
+
+.site-header .site-name,
+.site-header h1.title.site-name {
+  margin: 0;
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.site-header h1.title.site-name { display: block; }
+.site-header a.site-name,
+.site-header .site-name a { display: inline-block; }
+
+.site-name,
+.site-name a {
+  color: var(--site-accent);
+  text-decoration: none;
+}
+
+.site-name:hover,
+.site-name a:hover { text-decoration: underline; }
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.2rem;
+  margin-top: 0.55rem;
+  font-size: 1rem;
+}
+
+.site-nav a {
+  color: var(--site-accent);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+// ---- Title block and headings ---------------------------------------------
+#title-block-header {
+  margin-bottom: 1.5rem;
+}
+
+#title-block-header .description {
+  color: var(--site-muted);
+  margin-top: 0.25rem;
+}
+
+#title-block-header .quarto-title h1.title,
+h1.title {
+  font-size: $h1-font-size;
+  margin: 0 0 0.25rem;
+}
+
+.quarto-title-meta,
+.quarto-title-meta-heading { display: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--site-accent);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  border: 0;
+  padding: 0;
+}
+
+h2 { margin: 2.25rem 0 0.75rem; }
+h3 { margin: 1.85rem 0 0.5rem; }
+h4 { margin: 1.5rem 0 0.4rem; }
+h2 + h3, h3 + h4 { margin-top: 0.75rem; }
+
+// ---- Text ----------------------------------------------------------------
+p, ul, ol, blockquote { margin-bottom: 1.1rem; }
+
+ul, ol { padding-left: 1.3em; }
+li { margin-bottom: 0.45em; }
+li > ul, li > ol { margin-top: 0.45em; margin-bottom: 0; }
+
+code { font-size: 0.85em; }
+
+em, i { font-style: italic; }
+strong, b { font-weight: 600; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--site-rule);
+  opacity: 1;
+  margin: 2.5rem 0;
+}
+
+blockquote, .blockquote {
+  margin: 1.4rem 0 1.4rem;
+  padding: 0 0 0 1.1rem;
+  border-left: 2px solid var(--site-rule);
+  color: var(--site-text);
+  font-size: 1em;
+}
+
+blockquote p { margin-bottom: 0.7em; }
+blockquote p:last-child { margin-bottom: 0; }
+
+.attribution {
+  display: block;
+  color: var(--site-muted);
+  font-style: normal;
+}
+
+// Lists of links with no bullets (home, writing, people & links).
+.link-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.link-list li { margin-bottom: 0.55em; }
+
+.muted, .note { color: var(--site-muted); }
+
+small, .small { font-size: 0.92em; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile {
+  display: block;
+  margin: 0 0 1.5rem;
+}
+
+// ---- Links and focus -----------------------------------------------------
+a {
+  color: var(--site-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: var(--site-rule);
+  transition: text-decoration-color 120ms ease-out;
+}
+
+a:hover { text-decoration-color: currentColor; }
+
+:focus { outline: none; }
+
+:focus-visible {
+  outline: 2px solid var(--site-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+// ---- Footnotes -----------------------------------------------------------
+#quarto-appendix.default,
+#quarto-appendix {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--site-rule);
+  background: transparent;
+  font-size: 0.95em;
+  color: var(--site-muted);
+}
+
+#quarto-appendix h2,
+#quarto-appendix .quarto-appendix-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: var(--site-muted);
+}
+
+#quarto-appendix #footnotes,
+.footnotes { margin: 0; }
+
+.footnotes hr { display: none; }
+.footnotes ol { padding-left: 1.2em; margin-bottom: 0; }
+.footnotes li { margin-bottom: 0.4em; }
+
+a.footnote-ref, a.footnote-back { text-decoration: none; }
+
+// ---- Footer --------------------------------------------------------------
+footer.footer {
+  margin-top: 3.5rem;
+  padding: 0 0 4rem;
+  background: transparent;
+  border: 0;
+}
+
+footer.footer .nav-footer {
+  display: block;
+  box-sizing: border-box;
+  min-height: 0;
+  max-width: var(--site-column);
+  margin: 0 var(--site-gutter) 0 var(--site-inset);
+  padding: 1.1rem 0 0;
+  border-top: 1px solid var(--site-rule);
+  font-size: 1rem;
+  color: var(--site-muted);
+  text-align: left;
+}
+
+footer.footer .nav-footer .nav-footer-left {
+  font-size: 1rem;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+footer.footer .nav-footer p { margin: 0; }
+
+// ---- Small screens -------------------------------------------------------
+@media (max-width: 640px) {
+  :root {
+    --site-inset: 1.25rem;
+    --site-gutter: 1.25rem;
+  }
+
+  body { font-size: 1.125rem; }
+
+  .site-header { padding-top: 2rem; padding-bottom: 2rem; }
+  .site-name { font-size: 1.65rem; }
+  .site-nav { gap: 0.15rem 1.1rem; font-size: 1rem; }
+
+  h1.title, #title-block-header .quarto-title h1.title { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a { transition: none; }
+}

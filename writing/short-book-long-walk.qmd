@@ -1,0 +1,12 @@
+---
+title: "The Joy of Taking a Short Book on a Long Walk"
+draft: true
+---
+
+<!--
+Placeholder. This essay currently lives on Notion and is linked from
+writing.qmd. To publish it here: paste the essay below, remove `draft: true`
+from the front matter, and point the link in writing.qmd at this page.
+-->
+
+This essay currently lives on Notion: [The Joy of Taking a Short Book on a Long Walk](https://www.notion.so/The-Joy-of-Taking-a-Short-Book-on-a-Long-Walk-cf197ebc6fcc4304ba0c61aecaf911ed).

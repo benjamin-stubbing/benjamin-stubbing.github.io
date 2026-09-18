@@ -1,0 +1,12 @@
+---
+title: "What do a mathematician, Pizza Hut, and the New Zealand National Party have in common?"
+draft: true
+---
+
+<!--
+Placeholder. This essay currently lives on Notion and is linked from
+writing.qmd. To publish it here: paste the essay below, remove `draft: true`
+from the front matter, and point the link in writing.qmd at this page.
+-->
+
+This essay currently lives on Notion: [What do a mathematician, Pizza Hut, and the New Zealand National Party have in common?](https://cream-lift-9ad.notion.site/What-do-a-mathematician-Pizza-Hut-and-the-New-Zealand-National-Party-have-in-common-5cb5a5140bd04577957b15fd37932866?pvs=4).

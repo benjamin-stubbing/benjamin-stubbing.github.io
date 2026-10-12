@@ -1,12 +1,124 @@
 ---
 title: "Wicked Problems are Fake"
-draft: true
+reference-location: margin
 ---
 
-<!--
-Placeholder. This essay currently lives on Notion and is linked from
-writing.qmd. To publish it here: paste the essay below, remove `draft: true`
-from the front matter, and point the link in writing.qmd at this page.
--->
+> *οι πλεονες κακοί*\
+> *\[The majority are wicked\]*
+>
+> [— Bias of Priene]{.attribution}
 
-This essay currently lives on Notion: [Wicked Problems are Fake](https://cream-lift-9ad.notion.site/Wicked-Problems-are-Fake-2ed3cfbbc0184a0ab11d98b5186774ac).
+> *The wickedness was never there—not in the sense it was supposed to be. No fantastic trafficking with the Devil, no black and evil splendour. Just parlour tricks done for money—and human life of no account. That's real wickedness. Nothing grand or big—just petty and contemptible.*
+>
+> [— Agatha Christie]{.attribution}
+
+> *But the wicked are like the tossing sea, when it cannot rest, whose waters cast up mire and dirt. There is no peace, saith my God, to the wicked.*
+>
+> [— Isaiah]{.attribution}
+
+> *A civilization is not destroyed by wicked people; it is not necessary that people be wicked but only that they be spineless.*
+>
+> [— James Baldwin]{.attribution}
+
+> *The belief in a supernatural source of evil is not necessary; men alone are quite capable of every wickedness.*
+>
+> [— Joseph Conrad]{.attribution}
+
+> *Wilfred Bohun threw one leg over the parapet, and Father Brown had him in a minute by the collar.*
+>
+> *“Not by that door,” he said quite gently; “that door leads to hell.”*
+>
+> *Bohun staggered back against the wall, and stared at him with frightful eyes.*
+>
+> *“How do you know all this?” he cried. “Are you a devil?”*
+>
+> *“I am a man,” answered Father Brown gravely; “and therefore have all devils in my heart.”*
+>
+> [— G.K. Chesterton]{.attribution}
+
+---
+
+## Are there really any wicked problems?
+
+The term “wicked problems” was coined by design theorists and planners Horst Rittel and Melvin Webber in their 1973 article ["Dilemmas in a General Theory of Planning"](https://link.springer.com/article/10.1007/BF01405730) published in the Journal of Policy Sciences.
+
+Rittel and Webber discussed the complexities and challenges of addressing planning and social policy problems. They described these "wicked problems" as having the following ten characteristics:
+
+1. There is no definitive formulation of the problem because to define to problem is to solve it.
+2. Solutions are not true-or-false, but rather better or worse.
+3. They have no stopping rule or definitive test for a solution.
+4. There is no immediate or ultimate test of a solution.
+5. Every solution to a wicked problem is a "one-shot operation"; because there is no opportunity to learn by trial-and-error, every attempt counts significantly
+6. They have no enumerable set of potential solutions.
+7. Every wicked problem is essentially unique.
+8. They can be considered symptoms of other problems.
+9. The existence of a discrepancy representing a wicked problem can be explained in numerous ways. The choice of explanation determines the nature of the problem's resolution.
+10. Planners have no right to be wrong and are liable for the consequences of their actions.
+
+Since its introduction the term "wicked problem" has been widely adopted across various disciplines—including public policy, environmental studies, and business management—to describe complex, multifaceted issues that are challenging to solve.
+
+But do wicked problems even exist? Let’s take a closer look at the characteristics of wicked problems.
+
+> ***1. There is no definitive formulation of the problem because to define to problem is to solve it.***
+
+Granted, it's harder to define some problems than others, but Rittel and Webber pull some Motte-and-Bailey shenanigans here. They claim that if you could define the problem you would have defined the solution by virtue of describing the problem accurately. As if by some magic, one could merely utter “Year 11s aren’t achieving high enough PISA scores in maths and science” and, *hey presto*, the solution would reveal itself.
+
+This is a bastardization of an argument made by Popper in *The Poverty of Historicism*, in which Popper argues we cannot imagine future technologies because in doing so we would have invented the future technology. Popper was only right insofar as we have the tools to realize our imaginations. In the 90s, many people already foresaw that ray-tubes would be obsolesced by LCD/LED panels that could be used to make flat-screen televisions. Despite knowing flat-screen technology was the future, they couldn’t just manifest the technology. Problems in the yield of pixels had to be reduced to a commercially viable level. To articulate a vision of the future is not to realize the vision. To articulate a problem is not to solve the problem.
+
+> ***2. Solutions are not true-or-false, but rather better or worse.***
+
+This is almost unintelligible semantic drivel. Rittel and Webber are comparing apples with oranges. Propositions can have truth value. To the extent that a solution is or contains propositions, it can have truth value. However, solutions to real-world problems like those faced by planners simply aren't reducible to a single proposition. They are projects, strategies, and actions. For example, one solution to “the problem of improving education” may be to ensure children are de-wormed to their attendance. The sentence, "ensure children are de-wormed to improve attendance", is not a proposition to which we can assign a truth-value; it is an imperative. However, it is informed by scientific evidence for the proposition "de-worming children improves attendance rates, which improves educational outcomes."
+
+> ***3. They have no stopping rule or definitive test for a solution.***
+
+This is playing fast and loose with terms that have precise domain-specific meanings and doing so inaccurately. In computer science, the discipline from which they've borrowed the term "stopping rule", no problem innately exhibits a stopping rule. A stopping rule is not a property of a problem *per se*. It is an optimal solution to a problem. We might say that we impose a stopping rule on a problem. We should not be surprised or concerned that "the problem of improving education" does not innately exhibit a stopping rule because no problem whatsoever innately exhibits stopping rules.
+
+> ***4. There is no immediate or ultimate test of a solution.***
+
+This is skepticism verging on silly empirical nihilism. Of course we can measure outcomes, even second- and higher-order outcomes. Yes it is challenging, but it can be done.
+
+> ***5. Every solution to a wicked problem is a "one-shot operation"; because there is no opportunity to learn by trial-and-error, every attempt counts significantly***
+
+On this point, Rittell and Webber go on to say that, "with wicked planning problems, every implemented solution is consequential. It leaves traces that cannot be undone. One cannot build a freeway to see how it works and then easily correct it after unsatisfactory performance." All this seems to be saying is that: there are costs associated with delivering solutions and pivoting when we receive evidence that our originally stipulated solution is sub-optimal, and deliverables have effects. Trite. Now that we have a firm grasp of the obvious, let’s turn to asking: upon what conjecture was the decision to build the freeway based? Perhaps "building **x** freeway will decrease commute time by **y** hours per year, increasing productivity by **a** and self-reported life-satisfaction by **b**." What support is there for this conjecture? Presumably other people have built freeways before—we can look to their examples. We can run simulations. Even back-of-the-envelope calculations would pull us from the pits of epistemological hell in which the authors would have us die.
+
+> ***6. They have no enumerable set of potential solutions.***
+
+When solving complex social problems in the real world we could try many many different things, but not an infinite amount. Planning and building regulations, other laws, feasibility/political palatability, time constraints, budgetary constraints, opportunity cost—all these things help us reduce a long-list to a short-list. No, of course, we don't know with 100% certainty that there wasn't a panacea lying just around the corner. We don’t know that in the counterfactual where we brainstormed for a little longer we wouldn’t have found the fountain of youth and elixir for life. But we can have a reasonable degree of confidence that we optimized subject to the constraints we faced—including the availability of information and cost of acquiring additional information!
+
+> ***7. Every wicked problem is essentially unique.***
+
+Sure, all real world complex social problems are unique. This is not interesting. It is merely a function of time and space.
+
+> ***8. They can be considered symptoms of other problems.***
+
+Complex social problems are connected. Shocking.
+
+> ***9. The existence of a discrepancy representing a wicked problem can be explained in numerous ways. The choice of explanation determines the nature of the problem's resolution.***
+
+Any social scientist worth their salt conducts a multivariate analysis. Sure, complex social problems have unexpected consequences. Pivoting is required. But we are not incapacitated by some inability to reject a hypothesis. We can assess the likelihood of the hypothesis being correct in the face of evidence to the contrary. This is elementary statistical inference.
+
+> ***10. Planners have no right to be wrong and are liable for the consequences of their actions.***
+
+Sounds like Rittel and Webber are just scared of being judged harshly by history. This is understandable, but it’s not a justification for inaction—which will be judged all the same. All we can do is make the best decisions we can based on the information we have. Keep your chins up, kings.
+
+---
+
+## Hard problems aren’t wicked, they’re just hard
+
+Where do we stand? The original wicked problem framework is unsalvageable. To the extent that what Rittel & Webber had to say about social science was true, it’s unremarkable, but they mostly wallow in vacuous verbiage and incapacitating skepticism.
+
+*You’re attacking the original definition of a wicked problem, but that isn’t what people mean when they label a problem wicked*, you say. There's some truth to that, though it’s worth noting the original article has been cited over twenty-five-thousand times (how many of those have actually read it? I wouldn’t dare speculate…).
+
+Many people label problems as wicked merely to distinguish between problems that can be solved by crunching numbers or theoretically have solutions, and those problems that are have no single solution, often because they are so heavily value-laden. Yet in these cases the differentiating property is not wickedness versus tameness; it is complexity. Social problems are more complex than mathematical problems.
+
+I’m not just being pedantic about words, though “in the landscape of extinction, precision is next to godliness.” We don’t need to carry around the cumbersome conceptual machinery of wickedness with all its inherent contradictions. It clouds more than it clarifies. To [snowclone](https://en.wikipedia.org/wiki/Snowclone) [Hanlon’s razor](https://www.notion.so/095c16e07dc84cc29484270e5b7631ab?pvs=25): Never attribute to wickedness that which can be adequately explained by complexity.
+
+## Wicked are those who bear wicked problems
+
+There’s also something subtly insidious and suspicious about calling a problem wicked. Futurists, thought-leaders, community builders, consultants—they relish labeling a problem wicked. Why? Because it grants them license to vaguely gesture at problems, speculate wildly on their causes and wax prophetic on their consequences before postulating their preferred remedies (which, the astute reader notes, the thought leader previously claimed were unknowable).
+
+The hidden hope, presumably, is that defining a problem lets them dictate how we address it. But they are not empowering humanity with their problem statement; they are shackling humanity with their problem dogma. It is no coincidence that their preferred solutions generally involve centralizing power with themselves. They offer this solution, all the while smirking smugly and condescendingly at people actually solving problems. *De vils esclaves sourient dʼun air moqueur à ce mot de liberté*.
+
+*“Intractable,”* they declare. *“You might as well give me control…”*
+
+When it does not suffice that a problem should merely be problematic but it must also be wicked, we must be wary. The accusers are asking us to light pyres. But, as we have seen, there are no witches to burn. The real devilry lies with those carrying the torches.

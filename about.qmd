@@ -24,7 +24,7 @@ My chief vice has always been having too many interests; I love learning about a
 - To let off steam, I regularly have it handed to me in [full-contact Origami](https://cream-lift-9ad.notion.site/Notes-on-BJJ-11206aff89f280ff8d40d154c3f1490a?pvs=4), I play tennis with mildly more success, and on occasion I dabble in violin and guitar after a fashion.
 - On weekends, I circulate an old-school [links blast](https://benjaminstubbing.substack.com/) and I read [very slowly](https://docs.google.com/spreadsheets/d/1KL3Ung7reIdBaDlK3LkV5zmfuP8y-q6zHt0PIKVGFBw/edit?usp=sharing).
 - Some of my favourite books are: *Dracula*, *Anna Karenina*, *Reasons and Persons*, and *The Man Who Was Thursday*.
-- Here's a repository of [wisdom](https://cream-lift-9ad.notion.site/Rules-for-life-746c0587080a427d9f1cf1ce5079021a) I've amassed, infinitely wise being that I am.
+- Here's a repository of [wisdom](writing/rules-for-life.qmd) I've amassed, infinitely wise being that I am.
 - If you don't know me (or don't know me that well) and you get the impression that we'd get along, feel free to email me: benstubbing (at) gmail (dot) com.
 
 [*N.B.*, the web design is a bootleg imitation of [Patrick Collison](https://patrickcollison.com/).]{.muted}

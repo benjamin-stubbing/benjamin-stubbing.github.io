@@ -1,12 +1,30 @@
 ---
 title: "Watches, Human Unexceptionalism & the Future of Work"
-draft: true
+reference-location: margin
 ---
 
-<!--
-Placeholder. This essay currently lives on Notion and is linked from
-writing.qmd. To publish it here: paste the essay below, remove `draft: true`
-from the front matter, and point the link in writing.qmd at this page.
--->
+On Christmas day, 1969, Seiko introduced the Astron—the world’s first quartz wristwatch. It was a limited edition of 100 gold-cased watches, priced at 450,000 yen, equivalent then to the cost of a Toyota Corolla.
 
-This essay currently lives on Notion: [Watches, Human Unexceptionalism & the Future of Work](https://cream-lift-9ad.notion.site/Watches-Human-Unexceptionalism-The-Future-of-Work-7fd45b4f1fb147e6a5d84ae2d52fdb93?pvs=74).
+![](/static/writing/watch.png){fig-alt="An early Seiko Quartz-Astron advertisement beside a gold wristwatch."}
+
+To understand the significance of the Astron, you need to understand the difference between mechanical watches and quartz watches. Quartz watches tick. Inside a quartz watch the battery sends electricity to the quartz crystal, making it oscillate (typically) at 32,768 Hz. A circuit counts the number of oscillations and uses them to generate regular electric impulses—one per second. These impulses can either power an LCD display or they can drive a small electric motor, turning gear wheels that spin the second, minute, and hour hands. Hence, the tick.
+
+A mechanical watch, on the other hand, is driven by a spring. The force of the spring is transmitted through a series of gears powering the balance wheel—a weighted wheel that oscillates back and forth at a consistent(ish) rate. A device called the escapement releases the watch’s wheels, letting them move forward a small amount with each swing of the balance wheel, giving the seconds hand an appearance of sweeping across the dial.
+
+Mechanical watches are less accurate than their quartz counterparts. Consequently, quartz technology wreaked havoc on the watch industry. The Astron catalysed what horologists refer to as the Quartz Crisis. By 1985, watch industry employment had fallen to 32,000 from 89,450 in 1970. Between 1974 and 1983, Swiss watch production fell from a record 96 million units to 45 million.
+
+The clearest sign of the pervasive impact of quartz technology on the watch industry, Joe Thomson notes, is the number of quartz watches produced each year. In 2015, according to the Japan Watch & Clock Association, 1.46 billion watches were produced. Of those, 1.42 billion were quartz, 97% of the total.
+
+By all accounts quartz technology should have killed the mechanical watch completely. Quartz watches are cheaper to make than mechanical watches and are more precise to boot. Yet mechanical watches persist and thrive. It is tempting to attribute the continued relevance of mechanical watches to brand equity alone. To be sure, marketing has done wonders to position certain watch brands in a category of “something-you-buy-when-you-make-the-big-time.”  But although brand equity is certainly an asset today, at the outset of the Quarz Crisis, brand equity was not enough to reverse the tides of change. Even big-name brands, such as Patek Philippe and Rolex, felt the need to make quartz watches of their own.
+
+How did mechanical watches reinvent themselves? In 1974 the longest continuously running watch company in the world, Blancpain, released a series of hand-made, mechanical watches under the slogan: “Since 1735 there has never been a quartz Blancpain watch. And there never will be.” At face value this may strike the reader as the very brand equity I previously called inconsequential, but Blancpain’s name hadn’t been used in years. They had limited name-recognition to leverage. So, what happened?
+
+---
+
+Whatever the reason, the reinvention of mechanical watches illustrates something interesting about what it means to be human in the digital economy. The current consensus among self-described futurists is that if a robot can do a human’s job at a lower cost, then the human will be replaced. And yet, the watch industry seems to show that the market values human “unexceptionalism” more than we currently give it credit for. The reinvention of mechanical watches indicates that—in some cases—customers are willing to pay more for human craftsmanship, in all its imperfections.
+
+Aurel Bacs, a legendary watch auctioneer, had this to say regarding the ever-growing market for vintage watches:
+
+> *“It has something to do with the way our society evolves; everything becomes more and more perfect. I mean, look at my mobile phone here on the desk. It looks exactly like yours... I cannot tell you a story about it. And when it’s broken, we throw it. Vintage watches bring us back to times that we miss—times when things maybe weren’t perfect... but done with love.”*
+
+Perhaps as jobs are automated we will come to miss some of the human imperfections we currently strive to eradicate.

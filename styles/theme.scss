@@ -54,6 +54,7 @@ $enable-gradients: false;
   --site-column: 38rem;                         // reading column (~33em)
   --site-inset:  clamp(1.25rem, 14vw, 13rem);   // left offset of the column
   --site-gutter: 1.25rem;                       // page edge gutter
+  --site-note-gap: 3rem;                       // space between text and sidenotes
   --site-margin: 13rem;                         // right-hand margin column (sidenotes)
 }
 
@@ -84,12 +85,21 @@ body {
     [screen-start] var(--site-gutter)
     [screen-start-inset page-start] minmax(0, calc(var(--site-inset) - var(--site-gutter)))
     [page-start-inset body-start-outset body-start body-content-start] minmax(0, var(--site-column))
-    [body-content-end body-end] 1.5rem
+    [body-content-end body-end] var(--site-note-gap)
     [body-end-outset] minmax(0, var(--site-margin))
     [page-end-inset] 1.5rem
     [page-end] minmax(var(--site-gutter), 1fr)
     [screen-end-inset] var(--site-gutter)
     [screen-end];
+}
+
+// Quarto starts margin content at body-end by default, which includes the
+// gutter. Start at the next grid line so the gap stays empty.
+.page-columns .column-margin,
+.page-columns div.aside,
+.page-columns aside:not(.footnotes):not(.sidebar),
+.page-columns .margin-caption {
+  grid-column: body-end-outset / page-end-inset !important;
 }
 
 // Below 992px there is no room for a margin column: drop it and bring
@@ -251,6 +261,10 @@ p, ul, ol, blockquote { margin-bottom: 1.1rem; }
 ul, ol { padding-left: 1.3em; }
 li { margin-bottom: 0.45em; }
 li > ul, li > ol { margin-top: 0.45em; margin-bottom: 0; }
+
+// Continued lists give each margin note a nearby anchor without adding
+// extra gaps between the numbered rules.
+.rules-list > ol { margin-bottom: 0; }
 
 code { font-size: 0.85em; }
 

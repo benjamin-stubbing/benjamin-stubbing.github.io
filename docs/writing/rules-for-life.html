@@ -1,2 +1,732 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Rules for Life – Benjamin Stubbing</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-98c7eacc04dc8a1fe11fe799e0cd156c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-7755d8030ae47f151d069c03221732ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header class="site-header">
+  <a class="site-name" href="../">Benjamin Stubbing</a>
+  <nav class="site-nav" aria-label="Site">
+    <a href="../about.html">About</a>
+    <a href="../writing.html">Writing</a>
+    <a href="../bookshelf.html">Bookshelf</a>
+    <a href="../weekend-reads.html">Weekend Reads</a>
+    <a href="../questions.html">Questions</a>
+    <a href="../people-and-links.html">People &amp; Links</a>
+    <a href="../dining.html">Dining</a>
+  </nav>
+  <script>
+    // Mark the current section in the navigation.
+    (function () {
+      var here = location.pathname;
+      document.querySelectorAll('.site-nav a').forEach(function (a) {
+        var there = a.pathname;
+        var section = there.replace(/\.html$/, '') + '/';
+        if (here === there || here.indexOf(section) === 0) {
+          a.setAttribute('aria-current', 'page');
+        }
+      });
+    })();
+  </script></header>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Rules for Life</h1>
+</div>
+</header>
+
+
+
+<p>I don’t need Jordan Peterson nor Deepak Chopra to tell me how to live my life, but I can semi-dig where they’re coming from. Living is an art and sometimes you need a guru to point you toward Mecca or Nirvana or Mount Olympus or Camel Grill. I’ve had my share of gurus in the art of living (Anthony Bourdain, Montaigne, Miles Davis, Clive James, <em>eg</em>.) but by now I’ve attained <em>perfect</em> mastery myself, so I’m passing along a few tips for your consideration.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;N.B., (1) This is <a href="https://www.notion.so/0d09e238f2f8409d9a4e1c3b995680b6#80e7bf94108e467a9461cdae253a5c66">a working tool</a>. (2) All wisdom is acquired wisdom (and the majority of wit is secondhand), so I’ve accredited it where it’s someone else’s line. Please believe that if I’ve failed to cite someone, it is done in error and is not an attempt to pass it off as my own. (3) My numbering serves organizational purposes only.</p></div></div><hr>
+<div class="rules-list page-columns page-full">
+<ol type="1">
+<li>Be a good ancestor.</li>
+<li>To dilute the formality of the ritual is to dilute the ritual itself.</li>
+<li>Pull the goalie. (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3132563">Asness &amp; Brown</a>)</li>
+<li>Bad things happen when good people do nothing.</li>
+<li>Recall Hanlon’s razor.</li>
+<li>Do not credulously accept the conclusions of Hanlon’s razor.</li>
+</ol>
+<!-- -->
+<ol start="7" type="1">
+<li>Clearly specify your level of engagement on a project. (Reid Hoffman; see <a href="#appendix-engagement">Appendix 1</a>; Benjamin Franklin <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>)</li>
+</ol>
+<!-- -->
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;“Partnerships often end in quarrels; but I was happy in this, that mine were all carried out and ended amicably, owing, I think, a good deal to the precaution of having very explicitly settled, in our articles, everything to be done by or expected from each partner, so that there was nothing to dispute.”</p>
+<p><span class="attribution">— Benjamin Franklin, <em>Autobiography</em></span></p></div></div><ol start="8" type="1">
+<li>Be the best part of another person’s day. Don’t just pay people compliments; give them living eulogies. Tell them exactly how great they are, in how many ways. Embarrass them.</li>
+<li>Be conservative in what you do, be liberal in what you accept from others. Hold yourself to a higher standard than you hold others to.</li>
+<li>Flattery might get you somewhere, but gratitude will get you everywhere. (Glenn O’Brien)</li>
+<li>Compete with yourself and root for everybody else (Candice Millard)</li>
+</ol>
+<!-- -->
+<ol start="12" type="1">
+<li>Know the element of irreducible rascality in yourself and in your enemies. What irritates us the most in others is probably the trait we most dislike about ourselves. (Alan Watts, Carl Jung <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>)</li>
+</ol>
+<!-- -->
+<div class="no-row-height column-margin column-container"><div id="fn3"><p><sup>3</sup>&nbsp;“Everything that is unconscious in ourselves we discover in our neighbour, and we treat him accordingly . . . we injure him by means of moral verdicts pronounced with the deepest conviction. What we combat in him is usually our own inferior side.”</p>
+<p><span class="attribution">— Carl Jung, <em>Modern Man in Search of a Soul</em></span></p></div></div><ol start="13" type="1">
+<li>You have a plan. A time-traveler from 2030 appears and tells you your plan failed. Which part of your plan do you think is the one that fails? Fix that part. (LW)</li>
+<li>If someone is undergoing group criticism, the tribal part in you will want to join in the fun of righteously destroying them. Resist this. You’ll only add ugliness to the world. Besides, they’ve already learned the lesson they’re going to learn and it probably isn’t the lesson you wanted to teach them. (LW)</li>
+<li>If it is done when ’tis done then t’were best it were done quickly. (Macbeth)</li>
+<li>To love is to be generous in interpreting the behaviour of another. (Alain de Botton)</li>
+<li>A relationship is a covenant between two people to let the other person annoy and upset you more than anybody else.</li>
+<li>Commitment is falling in love with something and then building a structure of behavior around it for those moments when love falters. So Jews love their God but they keep kosher just in case. (David Brooks)</li>
+<li>Love is the quality of attention we pay to things. (J.D. McClatchy)</li>
+<li>Always order one extra dish at a restaurant, an unfamiliar one. You might like it, which would be splendid. If you don’t like it, all you lost was a couple of bucks. If you can’t afford to order that one extra dish, then the restaurant is too expensive for your budget and you should find a cheaper one. (Meghan Mcardle)</li>
+<li>Be the kind of person who orders fries for the table. Don’t ask for permission.</li>
+<li>When you’re not in the know, let someone else order for the table. The best examples of artistic goods are often under the radar screen. To broaden your horizons in these areas, find a mentor—someone you trust as a guide—and let them open you up to new experiences.</li>
+<li>When you’re in the know, order for the table.</li>
+<li>Food is a product of economic supply and demand. Figure out where the supplies are fresh, the suppliers are innovative, and the demanders are informed (TC)</li>
+<li>If you’re looking for your good <span class="math inline">\(x\)</span>, you have bad <span class="math inline">\(x\)</span>s. Throw these out.</li>
+<li>Introduce a little <em>sprezzatura</em>, a certain nonchalance. Conceal design and make whatever one throws together appear to be without effort and almost without thought.</li>
+<li>All good rooms are a little shabby. Clutter is not the enemy of homeliness, sterility is. That being said, without active care and curation, any area in your home will tend to become “storage”, which is the least muscular or affirmative use of space in your life.</li>
+<li>If you buy the best you can afford and maintain it, you’ll only cry once. Real luxury is the comprehension of quality, which is durable and always in style. (G. Bruce Boyer)</li>
+<li>This too shall pass.</li>
+<li>There is in the make-up of a truly great debater a touch of the eagle, ever ready to swoop down upon a worthy quarry, but leaving field mice and the like to the pouncings of lesser birds. The debater must ignore small game, as, for example, trifling errors in chronology. No gentleman would pillory grammatical <em>faux pas</em> or mispronunciations. Flouts and jeers and notable scorns are not permissible. Few of us can hope to become orators, but it is within our compass to prove ourselves men of good will.</li>
+<li>Expect good discourse to require energy. See <a href="#appendix-discourse">Appendix 2</a>.</li>
+<li>In a public debate, it is them whose intelligence is closest to that of the audience who wins.</li>
+<li>You contain more liveliness than you have life to live. Ideate, prototype, and iterate, reiterate, reiterate!</li>
+<li>Save like a pessimist, invest like an optimist.</li>
+<li>Do something every day that is analogous to a linebacker watching tape. Do something every day that is analogous to a pianist practicing scales. Do something everyday that is analogous to Djokovic stretching.</li>
+<li>Do not just practice your skill: practice your practice.</li>
+<li>Ask a blue belt before you ask a black belt.</li>
+<li>When you get frustrated with a computer, remember it is just cleverly arranged sand. (Gwern)</li>
+<li>Too much apology doubles the offense.</li>
+<li>All men should strive to understand before they die what they are running from, and to, and why. (James Thurber)</li>
+<li>There are two ways of getting home and one of them is to stay there. (GKC)</li>
+<li>Sunk costs are no costs.</li>
+<li>Don’t change horses while crossing a river.</li>
+<li>There’s nothing more permanent than a temporary solution.</li>
+<li>Being able-bodied is temporary.</li>
+<li>Keep your feet on the ground to signify that nothing is beneath you, but lift up your eyes to say nothing is beyond you. (Seamus Heaney)</li>
+<li>Find purpose by eliminating what isn’t. Chip away everything that doesn’t look like David.</li>
+<li>Be kind to hypotheses and tough on proofs. (Carl Sagan, Karl Popper)</li>
+<li>When it is not expensive to panic, in any situation, it must be done. (As a corollary: If you don’t know which one she wants, and if it is not prohibitively expensive to do so, buy both).</li>
+<li>Markets are voting machines in the short-run and weighing machines in the long-run. (Benjamin Graham).
+<ol type="1">
+<li>Markets can remain irrational longer than you can remain solvent (Keynes)</li>
+</ol></li>
+<li>If your closest friends all tell you the same thing about a romantic partner, listen to them. As long as you actually like your friends and think they’re smart, there are no exceptions to this rule. Of course you can choose not to listen to them, but you’ll regret it.</li>
+<li>If you don’t like a friend’s romantic partner—<em>i.e.</em>, if you sense there is some insurmountable barrier likely to prevent you <em>ever</em> liking your friend’s romantic partner—you have precisely one opportunity to tell your friend. Make it count.</li>
+<li>If you fit in, you’re replaceable.</li>
+</ol>
+<!-- -->
+<ol start="54" type="1">
+<li>One of the most valuable things you can do with your life is to raise someone’s aspirations, especially when they are relatively young, simply by suggesting they do something better or more ambitious than what they might have in mind. (<a href="https://marginalrevolution.com/marginalrevolution/2018/10/high-return-activity-raising-others-aspirations.html">TC</a>, Goethe <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>)</li>
+</ol>
+<!-- -->
+<!-- -->
+<div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;“When we take people, thou wouldst say, merely as they are, we make them worse; when we treat them as if they were what they should be, we improve them as far as they can be improved.”</p>
+<p><span class="attribution">— Goethe, <em>Wilhelm Meisters Lehrjare</em> (1795–6) bk.&nbsp;8, ch.&nbsp;4, tr. Thomas Carlyle</span></p></div></div><ol start="55" type="1">
+<li>If you discovered that in fifty years people close to you will consider your life a tragic waste of potential, what is the most plausible reason that this happened?<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></li>
+</ol>
+<!-- -->
+<div class="no-row-height column-margin column-container"><div id="fn5"><p><sup>5</sup>&nbsp;“Not all genes are expressed at any given time, your genes contain different versions of you with varying degrees of potential that are accessed at any given time. Some of these versions are more easily accessible than others. The ease of accessibility goes down as you go higher up in the curve. This means that it is highly probable that you, like everyone else, are currently functioning way below your genetic constraint.”</p>
+<p><span class="attribution">— <a href="https://medium.com/@shauseth/theres-plenty-of-room-at-the-top-37524030e19f">Shaurya</a></span></p></div></div><ol start="56" type="1">
+<li>Every day, do something that won’t compute. (<a href="https://cals.arizona.edu/~steidl/Liberation.html">Wendell Berry</a>)</li>
+<li>You may trust <span class="math inline">\(x\)</span> but do you know their future wife’s divorce attorney? No? Then get a contract that you’d be happy with <em>them</em> holding you to the letter of. (Patrick McKenzie)</li>
+<li>There’s no investment so good that there’s not a fee high enough to make it bad. (Cliff Asness)</li>
+<li>Austere beauty over compromising ugliness.</li>
+<li>If you don’t have consistent scheduled time for your top goals, you don’t have top goals. (Alex Guzey)</li>
+</ol>
+<!-- -->
+<ol start="61" type="1">
+<li>Slow is fake. (Nat Friedman, Samuel Johnson <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>)</li>
+</ol>
+<!-- -->
+<div class="no-row-height column-margin column-container"><div id="fn6"><p><sup>6</sup>&nbsp;“To act is far easier than to suffer; yet we every day see the progress of life retarded by the vis inertiae, the mere repugnance to motion, and find multitudes repining at the want of that which nothing but idleness hinders them from enjoying. The case of Tantalus, in the region of poetic punishment, was somewhat to be pitied, because the fruits that hung about him retired from his hand; but what tenderness can be claimed by those who, though perhaps they suffer the pains of Tantalus, will never lift their hands for their own relief?”</p>
+<p><span class="attribution">— Samuel Johnson, <a href="https://www.samueljohnson.com/ram134.html"><em>Rambler #134</em></a></span></p></div></div><ol start="62" type="1">
+<li>Cultivate the element of the <em>débrouillard</em> in yourself.</li>
+<li>Many things regarded by conventional wisdom as very low probability happen when a relatively tiny number of able people decide to change something.</li>
+<li>Wine is for first drafts, coffee for second.</li>
+<li>You are your dopamine sources.</li>
+<li>A theory of social behaviour cannot be simultaneously general, accurate, and simple. (Thorngate)</li>
+<li>The skillful workman is very careful as to what he takes into his brain-attic. (Arthur Conan Doyle)</li>
+<li>Action precedes motivation. The Muse arrives to us most readily <em>during</em> creation, not before. Homer and Hesiod invoke the Muses not while wondering what to compose, but as they begin to sing. (Simon Sarris)</li>
+<li>Sauce waits for pasta, not <em>vice versa</em>.</li>
+<li>You can’t trust someone who hasn’t memorised at least <em>some</em> poetry. They who have no poetry in themselves find poetry in nothing.</li>
+<li>You have scarce bandwidth available for unusual clothing. Braces take up all of it, a tie clip: half.</li>
+<li>750mL is too much milkshake.</li>
+<li>Find as many books as possible that you can re-read every decade. (Henry Oliver)</li>
+</ol>
+<!-- -->
+<ol start="74" type="1">
+<li>Wisdom is the ability to follow one’s own advice.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></li>
+</ol>
+<!-- -->
+<div class="no-row-height column-margin column-container"><div id="fn7"><p><sup>7</sup>&nbsp;“No matter how full a reservoir of maxims one may possess, and no matter how good one’s sentiments may be, if one have not taken advantage of every concrete opportunity to act, one’s character may remain entirely unaffected for the better. With mere good intentions, hell is proverbially paved.”</p>
+<p><span class="attribution">— William James, <em>Principles of Psychology</em></span></p>
+<p>“My words fly up, my thoughts remain below:<br>
+Words without thoughts never to heaven go”</p>
+<p><span class="attribution">— Claudius, <em>Hamlet</em></span></p></div></div><ol start="75" type="1">
+<li>Everything not saved will be lost. (Nintendo)</li>
+<li>He is no fool who gives up what he cannot keep to gain what he cannot lose. (<a href="https://sharperiron.org/article/jim-elliot-was-not-first-to-say-it">Philip Henry</a>)</li>
+<li>Clean your eyeglasses at least as often as you defecate. Whether you choose to conduct these activities at the same time is not my concern. (Merlin Man)</li>
+<li>There is only one success: to be able to spend your life in your own way. (Kevin Kelly, Joel Arthur Barker)</li>
+<li>There is only one way to clean the sink after shaving: <a href="https://www.mitre10.co.nz/shop/scrub-daddy-damp-duster-blue/p/2032494">the scrub daddy damp duster</a>.</li>
+<li>When traveling, buy the thing. Thinking on the margin will mislead you.</li>
+<li>Discipline is self respect of the highest order.</li>
+<li>“Don’t think, look!” (Wittgenstein) So much bad writing comes from people moving words about on the page, instead of staring at the real thing and then adjusting their words to fit it. (Henrik Karlsson)</li>
+<li>When inviting people to an <em>event</em>, create an <em>event</em> <strong>NOT</strong> a group chat. The calendar invite is civilisation; the group chat, barbarism</li>
+<li>Do not give undefended grounds in academic writing and presentations. Any claim you make, explicitly or implicitly, you must be able to substantiate—or explain your inability to substantiate. (Tod)</li>
+<li>Look at your senior colleagues’ daily routines. That’s your future here. How does it make you feel? <em>Eram quod es, eris quod sum.</em></li>
+<li>Honour the generic Tinbergen Rule: <u><strong><em>let one thing do one thing well</em></strong></u>. Though shalt:
+<ol type="1">
+<li>let one medicament medicate one symptom,</li>
+<li>let one layer of apparel insulate and another shield you from rain,</li>
+<li>let a trip to see your family be a trip to see your family.</li>
+</ol></li>
+<li>One of the most valuable things you can do as a junior staffer or researcher is to read everything, check all the sums, and question all the assumptions.</li>
+<li>Questions before data.</li>
+</ol>
+<!-- -->
+<ol start="89" type="1">
+<li>There is no difference between good prompt engineering and good commissioning.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></li>
+</ol>
+<!-- -->
+<div class="no-row-height column-margin column-container"><div id="fn8"><p><sup>8</sup>&nbsp;Good prompt engineering is good commissioning. When you deeply understand this, two corollaries emerge: First, many things you try delegating to humans, you should instead delegate to AI. Second, when you delegate to a human and they deliver a sub-optimal output, you should take seriously the possibility that your prompt was poorly constructed.</p></div></div><ol start="90" type="1">
+<li>The real art of conversation is not only to say the right thing in the right place, but, far more difficult still, to leave unsaid the wrong thing at the tempting moment. (Dorothy Nevill; Jane Austen)</li>
+<li>“That’s the thing about comfort zones: the longer you stay in one, the smaller it gets.” (Some episode of Country Calendar)</li>
+<li>The world is awful; the world is much better; the world can be much better. (Max Roser)</li>
+<li>When you are not sure why you were wrong, or how wrong you were, that is all the more reason to stay humble.</li>
+<li>For the love of God, Ben, buy it!</li>
+<li>In tennis, if you are unsure of the other player’s line call, ask them “what’s your call?” not “was it in?” It’s harder to fib or bluff an open-ended question. The point generalises. (Judy Chalenor, my first great teacher and one of New Zealand’s all time greatest tennis players)</li>
+<li>In tennis, if you don’t know which groundstroke to play, always hit the backhand. And in doubles, a ball down the middle of the court belongs to whoever can hit it with a forehand. The point is not, of course, that these are the correct arrangements <em>per se</em>, the point is you should decide, in advance, how you will make decisions under uncertainty. (Another Chalenorism)</li>
+</ol>
+</div>
+<p>…</p>
+<hr>
+<section id="appendix-engagement" class="level2">
+<h2 data-anchor-id="appendix-engagement">Appendix 1: Levels of engagement</h2>
+<p><strong>Principal</strong>: You’re driving the process. You’re the person making things happen. You have ball control.</p>
+<p><strong>Board Member</strong>: You’re probably an investor. You’re regularly meeting with the principal. You’re thinking about the project even when you’re not formally scheduled to be doing so. You’re continually up to speed on the latest and greatest.</p>
+<p><strong>Investor</strong>: You’re a supporter (financially or with periodic bursts of time), but you’re not actively involved in the project. You’ll meet with the principal occasionally. If you’re called to do something, you have enough context such that you can be helpful on a reactive basis, but you won’t have up-to-date knowledge.</p>
+<p><strong>Friend:</strong> You enjoy talking to the principal. But the moment you walk away from the breakfast or lunch—that’s it. You’re not thinking about it anymore.</p>
+</section>
+<section id="appendix-discourse" class="level2">
+<h2 data-anchor-id="appendix-discourse">Appendix 2: Good discourse</h2>
+<p>See <a href="https://www.lesswrong.com/posts/XPv4sYrKnPzeJASuk/basics-of-rationalist-discourse-1">Duncan_Sabien</a>’s 10 guidelines for Rationalist discourse, summarized here:</p>
+<ol type="1">
+<li>Don’t say straightforwardly false things.</li>
+<li>Track (for yourself) and distinguish (for others) your inferences from your observations.</li>
+<li>Estimate (for yourself) and make clear (for others) your rough level of confidence in your assertions.</li>
+<li>Make your claims clear, explicit, and falsifiable, or explicitly acknowledge that you aren’t doing so (or can’t).</li>
+<li>Aim for convergence on truth, and behave as if your interlocutors are also aiming for convergence on truth.</li>
+<li>Don’t jump to conclusions—maintain at least two hypotheses consistent with the available information.</li>
+<li>Be careful with extrapolation, interpretation, and summary/restatement—distinguish between what was actually said, and what it sounds like/what it implies/what you think it looks like in practice/what it’s tantamount to. If you believe that a statement A strongly implies B, and you are disagreeing with A because you disagree with B, explicitly note that “A strongly implies B” is a part of your model.</li>
+<li>Allow people to restate, clarify, retract, and redraft their points, if they say that their first attempt failed to convey their intended meaning; do not hold people to the first or worst version of their claim.</li>
+<li>Don’t weaponize equivocation/don’t abuse categories/don’t engage in motte-and-bailey shenanigans.</li>
+<li>Hold yourself to the absolute highest standard when directly modeling or assessing others’ internal states, values, and thought processes.</li>
+</ol>
+<p>…and Dennett:</p>
+<ol type="1">
+<li>Attempt to re-express your target’s position so clearly, vividly and fairly that your target says: “Thanks, I wish I’d thought of putting it that way.”</li>
+<li>List any points of agreement (especially if they are not matters of general or widespread agreement).</li>
+<li>Mention anything you have learned from your target.</li>
+<li>Only then are you permitted to say so much as a word of rebuttal or criticism.</li>
+</ol>
+<blockquote class="blockquote">
+<p><em>“It is very important to understand [the] project, to see a little bit more about what the whole shape of it is, and delay the barrage of nitpicking objections and criticisms until we have seen what the edifice as a whole is.”</em></p>
+</blockquote>
+
+
+</section>
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/benjamin-stubbing\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>benstubbing (at) gmail (dot) com &nbsp;·&nbsp; <a href="https://benjaminstubbing.substack.com/">Substack</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

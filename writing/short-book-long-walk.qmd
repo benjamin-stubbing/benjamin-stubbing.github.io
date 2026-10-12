@@ -1,12 +1,26 @@
 ---
 title: "The Joy of Taking a Short Book on a Long Walk"
-draft: true
+reference-location: margin
 ---
 
-<!--
-Placeholder. This essay currently lives on Notion and is linked from
-writing.qmd. To publish it here: paste the essay below, remove `draft: true`
-from the front matter, and point the link in writing.qmd at this page.
--->
+Prospective holidays are refuges in our imaginations. When we imagine ourselves holidaying we imagine ourselves stress-free, well-rested, and energetic without relying on caffeine. We imagine that we will have time to do all those things which we had hoped to do, but couldn’t because of the demands of quotidian existence. Imaginary holidays are repositories for things one would do “if only I had more time.”
 
-This essay currently lives on Notion: [The Joy of Taking a Short Book on a Long Walk](https://www.notion.so/The-Joy-of-Taking-a-Short-Book-on-a-Long-Walk-cf197ebc6fcc4304ba0c61aecaf911ed).
+Typically I take too many books with me on holiday. (This is such a universally shared experience, there must be a German word for packing too many books into too small a suitcase). Throughout the rest of the year I read steadily enough, but the growing tower of unread books leaning over my bed stares at me menacingly like a sleep paralysis demon scratching at my bedpost to mark the seconds counting down towards my death. To keep my mortal despair at bay, I’ll assure myself that while holidaying I can read *Paradise Lost*, *Moby Dick*, and *David Copperfield* in one week and still have time to rearrange a living room and eat a Fruju.
+
+I kept this dysfunctional behaviour up until I walked the Routeburn track. I was packing light, so I chose between two small books: either Schopenhauer's Essays & Aphorisms or Shakespeare’s sonnets. I packed the sonnets—a small, slim, almost-square orange book that could be mistaken for a coaster.
+
+One of the joys of taking short books filled with small things, like poems or aphorisms, on a long walk is that they are well suited to the logistical demands of traveling. In *On Reading*, Montaigne says this about Plutarch and Seneca:
+
+> *“They both are strikingly suited to my humour in that the knowledge that I seek from them is treated in pieces not sewn together (and so do not require me to bind myself to some lengthy labour, of which I am quite incapable) . . . I do not need a great deal of preparation to get down to them and I can drop them whenever I like, for one part of them does not really lead to another.”*
+
+When you’ve reached the hut and you’ve unrolled your sleeping bag, hung your clothes out to dry, and changed into something cozier, you can read a little—just a little. You can slip into the bath without getting your hair wet.
+
+Taking a short book on a long walk also connects a book and a place. Like a summer romance, the charm of the book becomes irreparably entangled from the place where we read it. And like re-reading a love letter, when we return to the book we are transported through time and space to a precious version of the place that exists only in our memory, unblemished.
+
+Taking a short book on a long walk affords you time to gnaw at it, sink your teeth into it, and chew it slowly. YouTube is filled with videos like “How reading one book every week changed my life,” “How to Read Faster,” “Why I read a book a day (and so should you!)”. The cult of reading books faster isn’t really about learning, or, at least, it’s inspired by a theory of learning that says that the more information you can pour into your head the more you’re going to learn. But learning isn’t that simple. Schopenhauer says:
+
+> *“Thoughts put down on paper are nothing more than footprints in the sand: one sees the road the man has taken, but in order to know what he saw on the way, one requires his eyes.”*
+
+We must labour to understand a book. By taking a short book on a long walk we may read and re-read it, looking closer and closer still.
+
+> *“Only through ordering what you know by comparing truth with every other truth can you take complete possession of your knowledge and get it into your power. You can think about only what you know, so you ought to learn something; on the other hand, you can know only what you have thought about.”*

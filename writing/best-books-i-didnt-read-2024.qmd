@@ -1,12 +1,89 @@
 ---
 title: "The Best Books I Didn't Read in 2024"
-draft: true
+reference-location: margin
 ---
 
-<!--
-Placeholder. This essay currently lives on Notion and is linked from
-writing.qmd. To publish it here: paste the essay below, remove `draft: true`
-from the front matter, and point the link in writing.qmd at this page.
--->
+::: {.column-margin}
 
-This essay currently lives on Notion: [The Best Books I Didn't Read in 2024](https://cream-lift-9ad.notion.site/The-Best-Books-I-Didn-t-Read-in-2024-16506aff89f28036b236dfb69661a6c9).
+Also posted here: [Weekend Reads \| Benjamin Stubbing \| Substack](https://benjaminstubbing.substack.com/p/the-best-books-i-didnt-read-in-2024)
+
+:::
+
+> *To grasp more closely this non-All, let us turn to a wonderful dialectical joke in Lubitsch’s Ninotchka: the hero visits a cafeteria and orders coffee without cream; the waiter replies: “Sorry, but we have run out of cream. Can I bring you coffee without milk?”*
+>
+> *In both cases, the customer gets coffee alone, but this One-coffee is each time accompanied by a different negation, first coffee-with-no-cream, then coffee-with-no-milk. (In a similar way, Eastern Europeans in 1990 did not only want democracy-without-communism, but also democracy-without-capitalism.)*
+>
+> *What we encounter here is the logic of differentiality, where the lack itself functions as a positive feature—the paradox rendered nicely by an old Yugoslav joke about a Montenegrin (people from Montenegro were stigmatized as lazy in the former Yugoslavia): why does a Montenegro guy, when going to sleep, put at the side of his bed two glasses, one full and one empty? Because he is too lazy to think in advance if he will be thirsty during the night. The point of this joke is that the absence itself has to be positively registered: it is not enough to have one full glass of water, since, if the Montenegrin will not be thirsty, he will simply ignore it—this negative fact itself has to be taken note of by the empty glass, that is, no-need-for water has to be materialized in the void of the empty glass.*
+>
+> *There is a political equivalent of these lines: in a joke from Socialist Poland, a customer enters a store and asks: “You probably don’t have butter, or do you?” The answer: “Sorry, but we are the store that doesn’t have toilet paper; the one across the street is the one that doesn’t have butter!”*
+>
+> [— Slavoj Zizek, *Zizek’s Jokes*]{.attribution}
+
+> *“You consider that to be important?” he asked.*\
+> *“Exceedingly so.”*\
+> *“Is there any point to which you would wish to draw my attention?”*\
+> *“To the curious incident of the dog in the night-time.”*\
+> *“The dog did nothing in the night-time.”*\
+> *“That was the curious incident,” remarked Sherlock Holmes.*
+>
+> [— Sir Arthur Conan Doyle, *Silver Blaze* in *The Memoirs of Sherlock Holmes*]{.attribution}
+
+> *There is more than one way not to read, the most radical of which is not to open a book at all. For any given reader, however dedicated he might be, such total abstention necessarily holds true for virtually everything that has been published, and thus in fact this constitutes our primary way of relating to books. We must not forget that even a prodigious reader never has access to more than an infinitesimal fraction of the books that exist. As a result, unless he abstains definitively from all conversation and all writing, he will find himself forever obliged to express his thoughts on books he hasn’t read.*
+>
+> *Reading is first and foremost non-reading. Even in the case of the most passionate lifelong readers, the act of picking up and opening a book masks the countergesture that occurs at the same time: the involuntary act of not picking up and not opening all the other books in the universe.*
+>
+> [— Pierre Bayard, *How to Talk About Books You Haven’t Read*]{.attribution}
+
+---
+
+In lieu of me finishing my [annual review post](https://cream-lift-9ad.notion.site/The-Coolest-Things-I-Learned-in-2023-in-no-particular-order-2a5037b248874bf9be979c791ed9636d), I hope you’ll enjoy this homage to [Kieran Healy’s list of books he did not read in 2003](https://kieranhealy.org/blog/archives/2003/12/15/books-i-did-not-read-this-year/?__readwiseLocation=). Here are my ten favourite books I didn’t read this year, arranged in the precise order in which I didn’t read them.
+
+## 1. Charles Dickens (All of Him)
+
+There was a time when I merely happened to not read Dickens, in the same way one happens to not visit Paraguay. But in 2024 I elevated my not-reading-of-Dickens to the first degree. Though he haunts my bookshelf, seeping through the canon of the English novel, I steadfastly refuse to attend to him. Truth be told, the thing that most compels me to read Dickens is the Herald Quiz.
+
+## 2. *Metamorphoses*, Ovid
+
+The book I have quoted the most this year having read the least. I bought a beautiful volume that has transformed by Zoom background magnificently. In fact, its contribution to my digital persona has been so significant that actually reading it would feel like a betrayal of its true purpose.
+
+## 3. *Things Hidden Since the Foundation of the World*, Girard
+
+The title alone suggests it was meant to remain unread. From the moment I found a copy in the annals of Pegasus I decided I would not read it until I had first read The Bible. What I didn’t know then was how long I’d spend not reading The Bible.
+
+## 4. *Gulliver’s Travels*, Jonathan Swift
+
+I have discovered not one but two copies of *Gulliver’s Travels* on my bookshelf, unread. Fortunately, as only one of them is complete and unabridged, rather than having not read *Gulliver’s Travels* two whole times this year, I only didn’t read it somewhere between once or twice.
+
+## 5. *Making Peoples*, James Belich
+
+I've developed such a sophisticated understanding of not reading Belich that I can discuss with authority the evolution of his thought from early Belich (which I haven't read) to late Belich (which I haven't read even more recently).
+
+## 6. *Ulysses*, James Joyce
+
+Another Bloom’s Day has bloomed and wilted while I continued to not read *Ulysses*. This year I didn’t read it with such dedication that I didn’t even fly it to Invercargill 17 times thinking I might read it. Then again, the longest way round is the shortest way home or so I hear.
+
+## 7. *Jane Eyre*, Charlotte Bronte
+
+In the exposition to Spring I enjoy spending my October evenings not reading Gothic fiction. Yet seldom do I achieve this goal. Last year I didn’t not read *Frankenstein* and for several Octobers prior I failed to not read *Dracula*. “This year,” I steeled myself, “this year I cannot not read.”
+
+The target of my neglect was to be *Jane Eyre* and I was on the brink of failing. The book was in my hands, its spine cracked, when I thought: “Why, isn’t this perfectly delightful. But wouldn’t it be fun, to really get into the spirit of the Byronic antihero, to trace the lineage and read some Byron beforehand.” So I pulled Byron down off the shelf before I thought to myself: “Why, this is perfectly delightful. But wouldn’t it be fun, to really get into the spirit of the romantic villain, to trace the lineage and read *Paradise Lost* beforehand.” So then I didn’t read *Paradise Lost* for two months instead.
+
+## 8. *Super Infinite*, Katherine Rundell
+
+I've listened to Katherine Rundell and Tyler Cowen talk about this book so much that I've achieved a state of quantum not-reading: as long as I don't open it, the book remains in a superposition of all (we might say infinite) possible books about John Donne.
+
+## 9. *On The Art of Writing,* Sir Arthus Quiller Couch
+
+After hearing of [Helen Hanff’s admirable approach to reading](https://x.com/catharinemorris/status/1671601923214958604?s=46) I sought out a copy of Sir Arthur Quiller Couch’s lectures on the art of writing, which Q delivered at Cambridge in 1913. This diminutive volume has taught me that not reading comes in many sizes. Start it though I have, the ending elludes me. Ecclesiastes tell us *better is the end of a thing than the beginning thereof* but Ecclesiastes is conspicuously silent on the issue of the middle, and it is the middle that thwarts me. (A keen observer will note my lapse in not reading The Bible—though I maintain this was largely accidental, which is the only proper way to read anything sacred, and only occured when I wasn’t trying to avoid not reading it. There’s nothing so propulsive as something to procrastinate). I ought to pick up Q’s lectures *On The Art of Reading*, though I worry this might create a recursive loop of non-reading from which there is no escape.
+
+## 10. *Growth: from microorganisms to megacities*, Vaclav Smil
+
+Having bought it August, 2021, I’ve been not reading this book constantly for the past three years, interrupted only by intervals of not reading other books. Since then, this book has grown magnificently unread on my shelf. Like the civilizations it presumably describes, it has evolved from being merely unread into being comprehensively, systematically, and methodically unread. Vaclav Smil came to me highly recommended by Bill Gates (in fact Gates recommended it in 2019, so maybe it’s been six years of non-reading, all things considered) who [dedicates 50 weeks out of the year to not thinking](http://archive.today/2017.05.29-201200/https://www.wsj.com/articles/SB111196625830690477), so seriously does he take not reading.
+
+---
+
+It’s not my intention to chastise the act of putting down, or never picking up, a book. Putting books down—violently throwing them against the wall on ocassion—is as vital as selecting wisely. The very act of reading is an act of non-reading.
+
+> *Some books should be not tasted, others not devoured, but only a precious few should not be chewed nor digested thoroughly.*
+>
+> [— As Francis Bacon did not say in *On Study*]{.attribution}

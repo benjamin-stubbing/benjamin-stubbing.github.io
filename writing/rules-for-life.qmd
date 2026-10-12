@@ -1,12 +1,225 @@
 ---
 title: "Rules for Life"
-draft: true
+reference-location: margin
 ---
 
-<!--
-Placeholder. This essay currently lives on Notion and is linked from
-writing.qmd. To publish it here: paste the essay below, remove `draft: true`
-from the front matter, and point the link in writing.qmd at this page.
--->
+I don’t need Jordan Peterson nor Deepak Chopra to tell me how to live my life, but I can semi-dig where they’re coming from. Living is an art and sometimes you need a guru to point you toward Mecca or Nirvana or Mount Olympus or Camel Grill. I’ve had my share of gurus in the art of living (Anthony Bourdain, Montaigne, Miles Davis, Clive James, *eg*.) but by now I’ve attained *perfect* mastery myself, so I’m passing along a few tips for your consideration.[^nb]
 
-This essay currently lives on Notion: [Rules for Life](https://cream-lift-9ad.notion.site/Rules-for-life-746c0587080a427d9f1cf1ce5079021a?pvs=4).
+---
+
+::: {.rules-list}
+
+1. Be a good ancestor.
+2. To dilute the formality of the ritual is to dilute the ritual itself.
+3. Pull the goalie. ([Asness & Brown](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3132563))
+4. Bad things happen when good people do nothing.
+5. Recall Hanlon's razor.
+6. Do not credulously accept the conclusions of Hanlon's razor.
+
+<!-- -->
+
+7. Clearly specify your level of engagement on a project. (Reid Hoffman; see [Appendix 1](#appendix-engagement); Benjamin Franklin [^2])
+
+<!-- -->
+
+8. Be the best part of another person's day. Don’t just pay people compliments; give them living eulogies. Tell them exactly how great they are, in how many ways. Embarrass them.
+9. Be conservative in what you do, be liberal in what you accept from others. Hold yourself to a higher standard than you hold others to.
+10. Flattery might get you somewhere, but gratitude will get you everywhere. (Glenn O'Brien)
+11. Compete with yourself and root for everybody else (Candice Millard)
+
+<!-- -->
+
+12. Know the element of irreducible rascality in yourself and in your enemies. What irritates us the most in others is probably the trait we most dislike about ourselves. (Alan Watts, Carl Jung [^3])
+
+<!-- -->
+
+13. You have a plan. A time-traveler from 2030 appears and tells you your plan failed. Which part of your plan do you think is the one that fails? Fix that part. (LW)
+14. If someone is undergoing group criticism, the tribal part in you will want to join in the fun of righteously destroying them. Resist this. You'll only add ugliness to the world. Besides, they've already learned the lesson they're going to learn and it probably isn't the lesson you wanted to teach them. (LW)
+15. If it is done when 'tis done then t'were best it were done quickly. (Macbeth)
+16. To love is to be generous in interpreting the behaviour of another. (Alain de Botton)
+17. A relationship is a covenant between two people to let the other person annoy and upset you more than anybody else.
+18. Commitment is falling in love with something and then building a structure of behavior around it for those moments when love falters. So Jews love their God but they keep kosher just in case. (David Brooks)
+19. Love is the quality of attention we pay to things.  (J.D. McClatchy)
+20. Always order one extra dish at a restaurant, an unfamiliar one. You might like it, which would be splendid. If you don’t like it, all you lost was a couple of bucks. If you can’t afford to order that one extra dish, then the restaurant is too expensive for your budget and you should find a cheaper one. (Meghan Mcardle)
+21. Be the kind of person who orders fries for the table. Don't ask for permission.
+22. When you’re not in the know, let someone else order for the table. The best examples of artistic goods are often under the radar screen. To broaden your horizons in these areas, find a mentor—someone you trust as a guide—and let them open you up to new experiences.
+23. When you're in the know, order for the table.
+24. Food is a product of economic supply and demand. Figure out where the supplies are fresh, the suppliers are innovative, and the demanders are informed (TC)
+25. If you’re looking for your good $x$, you have bad $x$s. Throw these out.
+26. Introduce a little *sprezzatura*, a certain nonchalance. Conceal design and make whatever one throws together appear to be without effort and almost without thought.
+27. All good rooms are a little shabby. Clutter is not the enemy of homeliness, sterility is. That being said, without active care and curation, any area in your home will tend to become "storage”, which is the least muscular or affirmative use of space in your life.
+28. If you buy the best you can afford and maintain it, you’ll only cry once. Real luxury is the comprehension of quality, which is durable and always in style. (G. Bruce Boyer)
+29. This too shall pass.
+30. There is in the make-up of a truly great debater a touch of the eagle, ever ready to swoop down upon a worthy quarry, but leaving field mice and the like to the pouncings of lesser birds. The debater must ignore small game, as, for example, trifling errors in chronology. No gentleman would pillory grammatical *faux pas* or mispronunciations. Flouts and jeers and notable scorns are not permissible. Few of us can hope to become orators, but it is within our compass to prove ourselves men of good will.
+31. Expect good discourse to require energy. See [Appendix 2](#appendix-discourse).
+32. In a public debate, it is them whose intelligence is closest to that of the audience who wins.
+33. You contain more liveliness than you have life to live. Ideate, prototype, and iterate, reiterate, reiterate!
+34. Save like a pessimist, invest like an optimist.
+35. Do something every day that is analogous to a linebacker watching tape. Do something every day that is analogous to a pianist practicing scales. Do something everyday that is analogous to Djokovic stretching.
+36. Do not just practice your skill: practice your practice.
+37. Ask a blue belt before you ask a black belt.
+38. When you get frustrated with a computer, remember it is just cleverly arranged sand. (Gwern)
+39. Too much apology doubles the offense.
+40. All men should strive to understand before they die what they are running from, and to, and why. (James Thurber)
+41. There are two ways of getting home and one of them is to stay there. (GKC)
+42. Sunk costs are no costs.
+43. Don’t change horses while crossing a river.
+44. There’s nothing more permanent than a temporary solution.
+45. Being able-bodied is temporary.
+46. Keep your feet on the ground to signify that nothing is beneath you, but lift up your eyes to say nothing is beyond you. (Seamus Heaney)
+47. Find purpose by eliminating what isn’t. Chip away everything that doesn't look like David.
+48. Be kind to hypotheses and tough on proofs. (Carl Sagan, Karl Popper)
+49. When it is not expensive to panic, in any situation, it must be done. (As a corollary: If you don’t know which one she wants, and if it is not prohibitively expensive to do so, buy both).
+50. Markets are voting machines in the short-run and weighing machines in the long-run. (Benjamin Graham).
+    1. Markets can remain irrational longer than you can remain solvent (Keynes)
+51. If your  closest friends all tell you the same thing about a romantic partner, listen to them. As long as you actually like your friends and think they’re smart, there are no exceptions to this rule. Of course you can choose not to listen to them, but you’ll regret it.
+52. If you don’t like a friend’s romantic partner—*i.e.*, if you sense there is some insurmountable barrier likely to prevent you *ever* liking your friend’s romantic partner—you have precisely one opportunity to tell your friend. Make it count.
+53. If you fit in, you’re replaceable.
+
+<!-- -->
+
+54. One of the most valuable things you can do with your life is to raise someone’s aspirations, especially when they are relatively young, simply by suggesting they do something better or more ambitious than what they might have in mind. ([TC](https://marginalrevolution.com/marginalrevolution/2018/10/high-return-activity-raising-others-aspirations.html), Goethe [^5])
+
+<!-- -->
+
+<!-- -->
+
+55. If you discovered that in fifty years people close to you will consider your life a tragic waste of potential, what is the most plausible reason that this happened?[^6]
+
+<!-- -->
+
+56. Every day, do something that won’t compute. ([Wendell Berry](https://cals.arizona.edu/~steidl/Liberation.html))
+57. You may trust $x$ but do you know their future wife’s divorce attorney? No? Then get a contract that you’d be happy with *them* holding you to the letter of. (Patrick McKenzie)
+58. There’s no investment so good that there’s not a fee high enough to make it bad. (Cliff Asness)
+59. Austere beauty over compromising ugliness.
+60. If you don’t have consistent scheduled time for your top goals, you don’t have top goals. (Alex Guzey)
+
+<!-- -->
+
+61. Slow is fake. (Nat Friedman, Samuel Johnson [^7])
+
+<!-- -->
+
+62. Cultivate the element of the *débrouillard* in yourself.
+63. Many things regarded by conventional wisdom as very low probability happen when a relatively tiny number of able people decide to change something.
+64. Wine is for first drafts, coffee for second.
+65. You are your dopamine sources.
+66. A theory of social behaviour cannot be simultaneously general, accurate, and simple. (Thorngate)
+67. The skillful workman is very careful as to what he takes into his brain-attic. (Arthur Conan Doyle)
+68. Action precedes motivation. The Muse arrives to us most readily *during* creation, not before. Homer and Hesiod invoke the Muses not while wondering what to compose, but as they begin to sing. (Simon Sarris)
+69. Sauce waits for  pasta, not *vice versa*.
+70. You can’t trust someone who hasn’t memorised at least *some* poetry. They who have no poetry in themselves find poetry in nothing.
+71. You have scarce bandwidth available for unusual clothing. Braces take up all of it, a tie clip: half.
+72. 750mL is too much milkshake.
+73. Find as many books as possible that you can re-read every decade. (Henry Oliver)
+
+<!-- -->
+
+74. Wisdom is the ability to follow one’s own advice.[^8]
+
+<!-- -->
+
+75. Everything not saved will be lost. (Nintendo)
+76. He is no fool who gives up what he cannot keep to gain what he cannot lose. ([Philip Henry](https://sharperiron.org/article/jim-elliot-was-not-first-to-say-it))
+77. Clean your eyeglasses at least as often as you defecate. Whether you choose to conduct these activities at the same time is not my concern. (Merlin Man)
+78. There is only one success: to be able to spend your life in your own way. (Kevin Kelly, Joel Arthur Barker)
+79.  There is only one way to clean the sink after shaving: [the scrub daddy damp duster](https://www.mitre10.co.nz/shop/scrub-daddy-damp-duster-blue/p/2032494).
+80.  When traveling, buy the thing. Thinking on the margin will mislead you.
+81. Discipline is self respect of the highest order.
+82. “Don't think, look!" (Wittgenstein) So much bad writing comes from people moving words about on the page, instead of staring at the real thing and then adjusting their words to fit it. (Henrik Karlsson)
+83. When inviting people to an *event*, create an *event* **NOT** a group chat. The calendar invite is civilisation; the group chat, barbarism
+84. Do not give undefended grounds in academic writing and presentations. Any claim you make, explicitly or implicitly, you  must be able to substantiate—or explain your inability to substantiate. (Tod)
+85. Look at your senior colleagues' daily routines. That's your future here. How does it make you feel? *Eram quod es, eris quod sum.*
+86. Honour the generic Tinbergen Rule: <u>***let one thing do one thing well***</u>. Though shalt:
+    1. let one medicament medicate one symptom,
+    2. let one layer of apparel insulate and another shield you from rain,
+    3. let a trip to see your family be a trip to see your family.
+87. One of the most valuable things you can do as a junior staffer or researcher is to read everything, check all the sums, and question all the assumptions.
+88. Questions before data.
+
+<!-- -->
+
+89. There is no difference between good prompt engineering and good commissioning.[^9]
+
+<!-- -->
+
+90. The real art of conversation is not only to say the right thing in the right place, but, far more difficult still, to leave unsaid the wrong thing at the tempting moment. (Dorothy Nevill; Jane Austen)
+91. “That’s the thing about comfort zones: the longer you stay in one, the smaller it gets.” (Some episode of Country Calendar)
+92. The world is awful; the world is much better; the world can be much better. (Max Roser)
+93.  When you are not sure why you were wrong, or how wrong you were, that is all the more reason to stay humble.
+94. For the love of God, Ben, buy it!
+95. In tennis, if you are unsure of the other player’s line call, ask them “what’s your call?” not “was it in?” It’s harder to fib or bluff an open-ended question. The point generalises. (Judy Chalenor, my first great teacher and one of New Zealand’s all time greatest tennis players)
+96. In tennis, if you don’t know which groundstroke to play, always hit the backhand. And in doubles, a ball down the middle of the court belongs to whoever can hit it with a forehand. The point is not, of course, that these are the correct arrangements *per se*, the point is you should decide, in advance, how you will make decisions under uncertainty. (Another Chalenorism)
+
+:::
+
+…
+
+---
+
+[^2]: “Partnerships often end in quarrels; but I was happy in this, that mine were all carried out and ended amicably, owing, I think, a good deal to the precaution of having very explicitly settled, in our articles, everything to be done by or expected from each partner, so that there was nothing to dispute.”
+
+    [— Benjamin Franklin,  *Autobiography*]{.attribution}
+
+[^3]: “Everything that is unconscious in ourselves we discover in our neighbour, and we treat him accordingly . . . we injure him by means of moral verdicts pronounced with the deepest conviction. What we combat in him is usually our own inferior side.”
+
+    [— Carl Jung, *Modern Man in Search of a Soul*]{.attribution}
+
+[^5]: “When we take people, thou wouldst say, merely as they are, we make them worse; when we treat them as if they were what they should be, we improve them as far as they can be improved.”
+
+    [— Goethe, *Wilhelm Meisters Lehrjare* (1795–6) bk. 8, ch. 4, tr. Thomas Carlyle]{.attribution}
+
+[^6]: “Not all genes are expressed at any given time, your genes contain different versions of you with varying degrees of potential that are accessed at any given time. Some of these versions are more easily accessible than others. The ease of accessibility goes down as you go higher up in the curve. This means that it is highly probable that you, like everyone else, are currently functioning way below your genetic constraint.”
+
+    [— [Shaurya](https://medium.com/@shauseth/theres-plenty-of-room-at-the-top-37524030e19f)]{.attribution}
+
+[^7]: “To act is far easier than to suffer; yet we every day see the progress of life retarded by the vis inertiae, the mere repugnance to motion, and find multitudes repining at the want of that which nothing but idleness hinders them from enjoying. The case of Tantalus, in the region of poetic punishment, was somewhat to be pitied, because the fruits that hung about him retired from his hand; but what tenderness can be claimed by those who, though perhaps they suffer the pains of Tantalus, will never lift their hands for their own relief?”
+
+    [— Samuel Johnson, [*Rambler #134*](https://www.samueljohnson.com/ram134.html)]{.attribution}
+
+[^8]: “No matter how full a reservoir of maxims one may possess, and no matter how good one's sentiments may be, if one have not taken advantage of every concrete opportunity to act, one's character may remain entirely unaffected for the better. With mere good intentions, hell is proverbially paved.”
+
+    [— William James, *Principles of Psychology*]{.attribution}
+
+    “My words fly up, my thoughts remain below:\
+    Words without thoughts never to heaven go”
+
+    [— Claudius, *Hamlet*]{.attribution}
+
+[^9]: Good prompt engineering is good commissioning. When you deeply understand this, two corollaries emerge: First, many things you try delegating to humans, you should instead delegate to AI. Second, when you delegate to a human and they deliver a sub-optimal output, you should take seriously the possibility that your prompt was poorly constructed.
+
+[^nb]: N.B., (1) This is [a working tool](https://www.notion.so/0d09e238f2f8409d9a4e1c3b995680b6#80e7bf94108e467a9461cdae253a5c66). (2) All wisdom is acquired wisdom (and the majority of wit is secondhand), so I’ve accredited it where it’s someone else’s line. Please believe that if I’ve failed to cite someone, it is done in error and is not an attempt to pass it off as my own. (3) My numbering serves organizational purposes only.
+
+## Appendix 1: Levels of engagement {#appendix-engagement}
+
+**Principal**: You’re driving the process. You’re the person making things happen. You have ball control.
+
+**Board Member**: You’re probably an investor. You’re regularly meeting with the principal. You’re thinking about the project even when you’re not formally scheduled to be doing so. You’re continually up to speed on the latest and greatest.
+
+**Investor**: You’re a supporter (financially or with periodic bursts of time), but you’re not actively involved in the project. You’ll meet with the principal occasionally. If you’re called to do something, you have enough context such that you can be helpful on a reactive basis, but you won’t have up-to-date knowledge.
+
+**Friend:** You enjoy talking to the principal. But the moment you walk away from the breakfast or lunch—that’s it. You’re not thinking about it anymore.
+
+## Appendix 2: Good discourse {#appendix-discourse}
+
+See [Duncan_Sabien](https://www.lesswrong.com/posts/XPv4sYrKnPzeJASuk/basics-of-rationalist-discourse-1)’s 10 guidelines for Rationalist discourse, summarized here:
+
+1. Don't say straightforwardly false things.
+2. Track (for yourself) and distinguish (for others) your inferences from your observations.
+3. Estimate (for yourself) and make clear (for others) your rough level of confidence in your assertions.
+4. Make your claims clear, explicit, and falsifiable, or explicitly acknowledge that you aren't doing so (or can't).
+5. Aim for convergence on truth, and behave as if your interlocutors are also aiming for convergence on truth.
+6. Don't jump to conclusions—maintain at least two hypotheses consistent with the available information.
+7. Be careful with extrapolation, interpretation, and summary/restatement—distinguish between what was actually said, and what it sounds like/what it implies/what you think it looks like in practice/what it's tantamount to. If you believe that a statement A strongly implies B, and you are disagreeing with A because you disagree with B, explicitly note that "A strongly implies B" is a part of your model.
+8. Allow people to restate, clarify, retract, and redraft their points, if they say that their first attempt failed to convey their intended meaning; do not hold people to the first or worst version of their claim.
+9. Don't weaponize equivocation/don't abuse categories/don't engage in motte-and-bailey shenanigans.
+10. Hold yourself to the absolute highest standard when directly modeling or assessing others' internal states, values, and thought processes.
+
+…and Dennett:
+
+1. Attempt to re-express your target’s position so clearly, vividly and fairly that your target says: “Thanks, I wish I’d thought of putting it that way.”
+2. List any points of agreement (especially if they are not matters of general or widespread agreement).
+3. Mention anything you have learned from your target.
+4. Only then are you permitted to say so much as a word of rebuttal or criticism.
+
+> *“It is very important to understand \[the\] project, to see a little bit more about what the whole shape of it is, and delay the barrage of nitpicking objections and criticisms until we have seen what the edifice as a whole is.”*

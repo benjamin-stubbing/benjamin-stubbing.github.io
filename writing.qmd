@@ -8,29 +8,22 @@ aliases:
 >
 > [— Montaigne]{.attribution}
 
-<!--
-Most of these essays still live on Notion. Each has a placeholder page in
-writing/ (marked `draft: true`, so it is not published). When an essay moves
-here: paste it into its placeholder, remove `draft: true`, and point the link
-below at the .qmd file, e.g. [Advice I often give](writing/advice-i-often-give.qmd).
--->
+<!-- The yearly coolest-things essays remain on Notion. -->
 
 ::: {.link-list}
-- [Advice I often give](https://cream-lift-9ad.notion.site/Advice-I-often-give-5d10fd3196a942b8848eb7e0252fa148)
-- [The Best Books I Didn't Read in 2024](https://cream-lift-9ad.notion.site/The-Best-Books-I-Didn-t-Read-in-2024-16506aff89f28036b236dfb69661a6c9)
+- [Advice I often give](writing/advice-i-often-give.qmd)
+- [The Best Books I Didn't Read in 2024](writing/best-books-i-didnt-read-2024.qmd)
 - ["A brief history of instant coffee"](https://worksinprogress.co/issue/a-brief-history-of-instant-coffee/), with Oscar Sykes for *Works in Progress*
 - [The coolest things I learned in 2025 (in no particular order)](https://cream-lift-9ad.notion.site/The-Coolest-Things-I-Learned-in-2025-in-no-particular-order-2ca06aff89f280a39ffddeada26cad7b?source=copy_link)
 - [The coolest things I learned in 2024 (in no particular order)](https://cream-lift-9ad.notion.site/The-Coolest-Things-I-Learned-in-2024-in-no-particular-order-17206aff89f280a7903ae877e90aea5f)
 - [The coolest things I learned in 2023 (in no particular order)](https://cream-lift-9ad.notion.site/The-Coolest-Things-I-Learned-in-2023-in-no-particular-order-2a5037b248874bf9be979c791ed9636d?pvs=4)
 - [The coolest things I learned in 2022 (in no particular order)](https://cream-lift-9ad.notion.site/The-coolest-things-I-learned-in-2022-in-no-particular-order-ab01f3bcba024643935d12b6b36e430c)
 - [The coolest things I learned in 2021 (in no particular order)](https://cream-lift-9ad.notion.site/Coolest-Things-I-Learned-in-2021-in-no-particular-order-bac7c27904e04c7eb51c350ab2e1c7fa)
-- [Dollar Cost Averaging & News Cycles](https://cream-lift-9ad.notion.site/Dollar-Cost-Averaging-News-Cycles-19a06aff89f2808698e7cce14874293f?pvs=4)
-- [Globalisation & Inequality](https://cream-lift-9ad.notion.site/Globalisation-Inequality-6a30f5dc4de0491ab5ce0347d2d86e25?pvs=4)
+- [Dollar Cost Averaging & News Cycles](writing/dollar-cost-averaging-news-cycles.qmd)
 - [Honours thesis: *How does Competition affect Productivity in New Zealand? Lessons from Wellington's Construction Industry*](https://drive.google.com/file/d/1Fi7eGJO1eaUYcyJVNygP_gMmxtM0xHFF/view?usp=drive_link)
-- [The Joy of Taking a Short Book on a Long Walk](https://www.notion.so/The-Joy-of-Taking-a-Short-Book-on-a-Long-Walk-cf197ebc6fcc4304ba0c61aecaf911ed)
-- [*The Kissing Booth* & the Necessity of Unhappy Endings](https://cream-lift-9ad.notion.site/The-Kissing-Booth-the-Necessity-of-Unhappy-Endings-fb587a788adb46aaa01e998597f19949?pvs=74)
-- [Rules for Life](https://cream-lift-9ad.notion.site/Rules-for-life-746c0587080a427d9f1cf1ce5079021a?pvs=4)
-- [Watches, Human Unexceptionalism & the Future of Work](https://cream-lift-9ad.notion.site/Watches-Human-Unexceptionalism-The-Future-of-Work-7fd45b4f1fb147e6a5d84ae2d52fdb93?pvs=74)
-- [What do a mathematician, Pizza Hut, and the New Zealand National Party have in common?](https://cream-lift-9ad.notion.site/What-do-a-mathematician-Pizza-Hut-and-the-New-Zealand-National-Party-have-in-common-5cb5a5140bd04577957b15fd37932866?pvs=4)
-- [Wicked Problems are Fake](https://cream-lift-9ad.notion.site/Wicked-Problems-are-Fake-2ed3cfbbc0184a0ab11d98b5186774ac)
+- [The Joy of Taking a Short Book on a Long Walk](writing/short-book-long-walk.qmd)
+- [*The Kissing Booth* & the Necessity of Unhappy Endings](writing/kissing-booth-unhappy-endings.qmd)
+- [Rules for Life](writing/rules-for-life.qmd)
+- [Watches, Human Unexceptionalism & the Future of Work](writing/watches-human-unexceptionalism-future-of-work.qmd)
+- [Wicked Problems are Fake](writing/wicked-problems-are-fake.qmd)
 :::

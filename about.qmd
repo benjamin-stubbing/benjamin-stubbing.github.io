@@ -30,4 +30,6 @@ My chief vice has always been having too many interests; I love learning about a
 
 [*N.B.*, the web design is a bootleg imitation of [Patrick Collison](https://patrickcollison.com/).]{.muted}
 
-[^boring]: *Somehow the guy who's really interested in absolutely everything is really boring.* — James Richardson
+[^boring]: *Somehow the guy who's really interested in absolutely everything is really boring.*
+
+    [— James Richardson]{.attribution}

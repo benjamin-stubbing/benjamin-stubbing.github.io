@@ -15,6 +15,9 @@ Personal website, built with [Quarto](https://quarto.org) and hosted on GitHub P
   `styles/title-block.html` and `styles/site-nav.html`; the footer is set in `_quarto.yml`.
 - `.claude/launch.json` starts `quarto preview` for the in-app browser.
 - `resources/` holds PDFs linked from elsewhere; keep their paths stable.
+- The Now page is `now.qmd`, linked from About. To update it, edit the date and
+  location line and the current activities in that file, then render and publish
+  the site as described below.
 - The page grid keeps Quarto's named columns, so Quarto's layout features work:
   `reference-location: margin` puts footnotes in the right margin as sidenotes,
   `.column-margin` places asides there, and `.column-page`, `.column-screen-inset`

@@ -1,5 +1,6 @@
 ---
 title: "About"
+reference-location: margin
 aliases:
   - /menu/about.html
 ---

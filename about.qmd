@@ -28,8 +28,6 @@ My chief vice has always been having too many interests; I love learning about a
 - Here's a repository of [wisdom](writing/rules-for-life.qmd) I've amassed, infinitely wise being that I am.
 - If you don't know me (or don't know me that well) and you get the impression that we'd get along, feel free to email me: benstubbing (at) gmail (dot) com.
 
-[*N.B.*, the web design is a bootleg imitation of [Patrick Collison](https://patrickcollison.com/).]{.muted}
-
 [^boring]: *Somehow the guy who's really interested in absolutely everything is really boring.*
 
     [— James Richardson]{.attribution}
